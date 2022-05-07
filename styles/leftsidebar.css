@@ -1,0 +1,25 @@
+#sidenav {
+  top: 50px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 226px;
+  border-right: 1px solid #d8d8d8;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1;
+}
+#sidenav .site-sidebar {
+  padding: 55px 30px 20px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4a4a4a;
+}
