@@ -13,11 +13,10 @@ const TourRightSideBar = () => {
       className="fixed hidden site-toc rightSide:block"
       style={{
         top: "50px",
-        maxHeight: "653px",
       }}
     >
       <header style={{ color: "#4A4A4A", fontSize: "18px" }}>Contents</header>
-      <ul id="toc" className="section-nav font-noto">
+      <ul id="toc" className="section-nav font-noto max-h-full">
         <li className="toc-entry nav-item toc-h2">
           <Link className="nav-link" href="#a-basic-dart-program">
             Dart의 기본
@@ -155,7 +154,7 @@ const TourRightSideBar = () => {
             </li>
           </ul>
         </li>
-        <li className="toc-entry nav-item toc-h2">
+        {/* <li className="toc-entry nav-item toc-h2">
           <Link className="nav-link" href="#operators">
             Operators
           </Link>
@@ -480,7 +479,7 @@ const TourRightSideBar = () => {
           <Link className="nav-link" href="#summary">
             Summary
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
