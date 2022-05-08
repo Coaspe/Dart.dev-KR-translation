@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CAnchor from "../Custom/CAnchor";
 import Ccode from "../Custom/Ccode";
 
@@ -11,6 +12,7 @@ const Sets = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="sets"
         className="font-noto text-primaryTitleTextColor"
       >
         Sets
@@ -68,12 +70,12 @@ const Sets = () => {
         을 <Ccode text="Set<String>" /> 타입으로 추정합니다. 만약 set에 다른
         타입을 추가하려고 시도하면, analyzer나 런타임이 에러를 발생시킵니다. 더
         자세한 정보를 원한다면,{" "}
-        <a
+        <Link
           className="text-selectedText hover:text-selectedTextHover mx-1"
           href="https://dart.dev/guides/language/type-system#type-inference"
         >
           type inference
-        </a>
+        </Link>
         를 참고하세요.
       </aside>
       <p>

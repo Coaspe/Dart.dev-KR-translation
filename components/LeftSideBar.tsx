@@ -5,12 +5,13 @@ interface props {
 }
 const LeftSideBar: React.FC<props> = ({ selected }) => {
   return (
-    <div id="sidenav" style={{ maxHeight: "663px" }}>
-      <div className="site-sidebar">
-        <ul>
-          <Language selected={selected} />
-          <li>eff</li>
-        </ul>
+    <div
+      className="hidden lg:block"
+      id="sidenav"
+      style={{ top: "50px", maxHeight: "653px" }}
+    >
+      <div className="site-sidebar ">
+        <Language selected={selected} />
       </div>
     </div>
   );

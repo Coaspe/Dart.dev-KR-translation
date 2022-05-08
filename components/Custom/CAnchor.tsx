@@ -1,4 +1,4 @@
-import { AnchorHTMLAttributes, DetailedHTMLProps } from "react";
+import Link from "next/link";
 
 interface props {
   text: string;
@@ -7,12 +7,12 @@ interface props {
 }
 const CAnchor: React.FC<props> = ({ text, className, href }) => {
   return (
-    <a
+    <Link
       href={href}
       className={`text-selectedText ${className} hover:text-selectedTextHover`}
     >
       {text}
-    </a>
+    </Link>
   );
 };
 

@@ -11,6 +11,7 @@ const Numbers = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="numbers"
         className="font-noto text-primaryTitleTextColor"
       >
         Numbers

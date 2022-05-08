@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CAnchor from "../Custom/CAnchor";
 import Ccode from "../Custom/Ccode";
 
@@ -11,9 +12,10 @@ const DefaultValue = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="default-value"
         className="font-noto text-primaryTitleTextColor"
       >
-        Default value
+        초기 값(Default value)
       </h2>
       <p>
         nullable type을 갖고 초기화 되지 않은 변수는 초기 값으로{" "}
@@ -59,12 +61,12 @@ const DefaultValue = () => {
           <strong className="mx-1">Note:</strong>Production code는 assert()
           호출을 무시합니다. 하지만 개발하는 동안에는 condition이 false라면
           assert(condition)가 exception을 throws 합니다.
-          <a
+          <Link
             className="text-selectedText hover:text-selectedTextHover inline-block ml-1"
             href="https://dart.dev/guides/language/language-tour#assert"
           >
             Assert
-          </a>
+          </Link>
           에 대한 자세한 정보
         </p>
       </aside>

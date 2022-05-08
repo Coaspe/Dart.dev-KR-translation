@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const KeywordsTable = () => {
   return (
     <div className="table-wrapper w-full">
@@ -5,312 +7,268 @@ const KeywordsTable = () => {
         <tbody className="table-body">
           <tr>
             <td>
-              <a href="#abstract-classes">abstract</a>&nbsp;
+              <Link href="#abstract-classes">abstract</Link>&nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#if-and-else">else</a>
+              <Link href="#if-and-else">else</Link>
             </td>
             <td>
-              <a href="#using-libraries">import</a>&nbsp;
+              <Link href="#using-libraries">import</Link>&nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#importing-only-part-of-a-library">show</a>&nbsp;
+              <Link href="#importing-only-part-of-a-library">show</Link>&nbsp;
               <sup title="contextual keyword">1</sup>
             </td>
           </tr>
           <tr className="">
             <td>
-              <a href="#type-test-operators">as</a>&nbsp;
+              <Link href="#type-test-operators">as</Link>&nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#enumerated-types">enum</a>
+              <Link href="#enumerated-types">enum</Link>
             </td>
             <td>
-              <a href="#for-loops">in</a>
+              <Link href="#for-loops">in</Link>
             </td>
             <td>
-              <a href="#class-variables-and-methods">static</a>&nbsp;
+              <Link href="#class-variables-and-methods">static</Link>&nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="#assert">assert</a>
+              <Link href="#assert">assert</Link>
             </td>
             <td>
-              <a href="/guides/libraries/create-library-packages">export</a>
+              <Link href="/guides/libraries/create-library-packages">
+                export
+              </Link>
               &nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#implicit-interfaces">interface</a>&nbsp;
+              <Link href="#implicit-interfaces">interface</Link>&nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#extending-a-class">super</a>
+              <Link href="#extending-a-class">super</Link>
             </td>
           </tr>
           <tr className="">
             <td>
-              <a href="#asynchrony-support">async</a>&nbsp;
-              <sup title="contextual keyword" alt="contextual keyword">
-                1
-              </sup>
+              <Link href="#asynchrony-support">async</Link>&nbsp;
+              <sup title="contextual keyword">1</sup>
             </td>
             <td>
-              <a href="#extending-a-class">extends</a>
+              <Link href="#extending-a-class">extends</Link>
             </td>
             <td>
-              <a href="#type-test-operators">is</a>
+              <Link href="#type-test-operators">is</Link>
             </td>
             <td>
-              <a href="#switch-and-case">switch</a>
+              <Link href="#switch-and-case">switch</Link>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="#asynchrony-support">await</a>&nbsp;
-              <sup title="limited reserved word" alt="limited reserved word">
-                3
-              </sup>
+              <Link href="#asynchrony-support">await</Link>&nbsp;
+              <sup title="limited reserved word">3</sup>
             </td>
             <td>
-              <a href="#extension-methods">extension</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#extension-methods">extension</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#late-variables">late</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#late-variables">late</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#generators">sync</a>&nbsp;
-              <sup title="contextual keyword" alt="contextual keyword">
-                1
-              </sup>
+              <Link href="#generators">sync</Link>&nbsp;
+              <sup title="contextual keyword">1</sup>
             </td>
           </tr>
           <tr className="">
             <td>
-              <a href="#break-and-continue">break</a>
+              <Link href="#break-and-continue">break</Link>
             </td>
             <td>
-              <a
+              <Link
                 href="https://spec.dart.dev/DartLangSpecDraft.pdf#External%20Functions"
                 className="external"
               >
                 external
-              </a>
+              </Link>
               &nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#libraries-and-visibility">library</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#libraries-and-visibility">library</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#constructors">this</a>
+              <Link href="#constructors">this</Link>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="#switch-and-case">case</a>
+              <Link href="#switch-and-case">case</Link>
             </td>
             <td>
-              <a href="#factory-constructors">factory</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#factory-constructors">factory</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#adding-features-to-a-class-mixins">mixin</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#adding-features-to-a-class-mixins">mixin</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#throw">throw</a>
+              <Link href="#throw">throw</Link>
             </td>
           </tr>
           <tr className="">
             <td>
-              <a href="#catch">catch</a>
+              <Link href="#catch">catch</Link>
             </td>
             <td>
-              <a href="#booleans">false</a>
+              <Link href="#booleans">false</Link>
             </td>
             <td>
-              <a href="#using-constructors">new</a>
+              <Link href="#using-constructors">new</Link>
             </td>
             <td>
-              <a href="#booleans">true</a>
+              <Link href="#booleans">true</Link>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="#instance-variables">class</a>
+              <Link href="#instance-variables">class</Link>
             </td>
             <td>
-              <a href="#final-and-const">final</a>
+              <Link href="#final-and-const">final</Link>
             </td>
             <td>
-              <a href="#default-value">null</a>
+              <Link href="#default-value">null</Link>
             </td>
             <td>
-              <a href="#catch">try</a>
+              <Link href="#catch">try</Link>
             </td>
           </tr>
           <tr className="">
             <td>
-              <a href="#final-and-const">const</a>
+              <Link href="#final-and-const">const</Link>
             </td>
             <td>
-              <a href="#finally">finally</a>
+              <Link href="#finally">finally</Link>
             </td>
             <td>
-              <a href="#catch">on</a>&nbsp;
-              <sup title="contextual keyword" alt="contextual keyword">
-                1
-              </sup>
+              <Link href="#catch">on</Link>&nbsp;
+              <sup title="contextual keyword">1</sup>
             </td>
             <td>
-              <a href="#typedefs">typedef</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#typedefs">typedef</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="#break-and-continue">continue</a>
+              <Link href="#break-and-continue">continue</Link>
             </td>
             <td>
-              <a href="#for-loops">for</a>
+              <Link href="#for-loops">for</Link>
             </td>
             <td>
-              <a href="#_operators">operator</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#_operators">operator</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#variables">var</a>
+              <Link href="#variables">var</Link>
             </td>
           </tr>
           <tr className="">
             <td>
-              <a href="/guides/language/sound-problems#the-covariant-keyword">
+              <Link href="/guides/language/sound-problems#the-covariant-keyword">
                 covariant
-              </a>
+              </Link>
               &nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#functions">Function</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#functions">Function</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="/guides/libraries/create-library-packages#organizing-a-library-package">
+              <Link href="/guides/libraries/create-library-packages#organizing-a-library-package">
                 part
-              </a>
+              </Link>
               &nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#built-in-types">void</a>
+              <Link href="#built-in-types">void</Link>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="#switch-and-case">default</a>
+              <Link href="#switch-and-case">default</Link>
             </td>
             <td>
-              <a href="#getters-and-setters">get</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#getters-and-setters">get</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#named-parameters">required</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#named-parameters">required</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#while-and-do-while">while</a>
+              <Link href="#while-and-do-while">while</Link>
             </td>
           </tr>
           <tr className="">
             <td>
-              <a href="#lazily-loading-a-library">deferred</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#lazily-loading-a-library">deferred</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#importing-only-part-of-a-library">hide</a>&nbsp;
-              <sup title="contextual keyword" alt="contextual keyword">
-                1
-              </sup>
+              <Link href="#importing-only-part-of-a-library">hide</Link>&nbsp;
+              <sup title="contextual keyword">1</sup>
             </td>
             <td>
-              <a href="#catch">rethrow</a>
+              <Link href="#catch">rethrow</Link>
             </td>
             <td>
-              <a href="#adding-features-to-a-class-mixins">with</a>
+              <Link href="#adding-features-to-a-class-mixins">with</Link>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="#while-and-do-while">do</a>
+              <Link href="#while-and-do-while">do</Link>
             </td>
             <td>
-              <a href="#if-and-else">if</a>
+              <Link href="#if-and-else">if</Link>
             </td>
             <td>
-              <a href="#functions">return</a>
+              <Link href="#functions">return</Link>
             </td>
             <td>
-              <a href="#generators">yield</a>&nbsp;
-              <sup title="limited reserved word" alt="limited reserved word">
-                3
-              </sup>
+              <Link href="#generators">yield</Link>&nbsp;
+              <sup title="limited reserved word">3</sup>
             </td>
           </tr>
           <tr className="">
             <td>
-              <a href="#important-concepts">dynamic</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#important-concepts">dynamic</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#implicit-interfaces">implements</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#implicit-interfaces">implements</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <a href="#getters-and-setters">set</a>&nbsp;
-              <sup title="built-in-identifier" alt="built-in-identifier">
-                2
-              </sup>
+              <Link href="#getters-and-setters">set</Link>&nbsp;
+              <sup title="built-in-identifier">2</sup>
             </td>
             <td>&nbsp;</td>
           </tr>

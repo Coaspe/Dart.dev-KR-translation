@@ -2,6 +2,7 @@ import Ccode from "../Custom/Ccode";
 import DefaultValue from "./DefaultValue";
 import FinalAndConst from "./FinalAndConst";
 import LateVariables from "./LateVariables";
+import Link from "next/link";
 
 const Variables = () => {
   return (
@@ -13,6 +14,7 @@ const Variables = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="variables"
         className="font-noto text-primaryTitleTextColor"
       >
         변수
@@ -84,12 +86,12 @@ const Variables = () => {
             <span className="pun mr-1">;</span> 같은 것&#41;이 아닌 var를
             사용하는{" "}
           </div>
-          <a
+          <Link
             className="text-selectedText hover:text-selectedTextHover mx-1 inline-block"
             href="https://dart.dev/guides/language/effective-dart/design#types"
           >
             style guide recommendation
-          </a>{" "}
+          </Link>{" "}
           을 따릅니다.
         </p>
       </aside>

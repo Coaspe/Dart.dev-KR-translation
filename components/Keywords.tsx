@@ -12,6 +12,7 @@ const Keywords = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="keywords"
         className="font-noto text-primaryTitleTextColor"
       >
         Keywords

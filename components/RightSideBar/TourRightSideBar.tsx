@@ -1,487 +1,485 @@
-import { MutableRefObject } from "react";
+import Link from "next/link";
+import { useRef } from "react";
 
-interface props {
-  TourOfTheDartRef: MutableRefObject<HTMLHeadingElement>;
-}
-const TourRightSideBar: React.FC<props> = ({ TourOfTheDartRef }) => {
+const TourRightSideBar = () => {
+  const divRef = useRef<HTMLDivElement>(null);
   return (
     <div
-      className="fixed"
+      ref={divRef}
+      onMouseOver={() => {
+        divRef.current && divRef.current.focus();
+      }}
+      id="site-toc--side"
+      className="fixed hidden site-toc rightSide:block"
       style={{
-        top: "122px",
-        maxHeight: "704px",
-        padding: "0px 20px 20px 30px",
-        bottom: 0,
-        minWidth: "226px",
-        maxWidth: "246px",
-        right: 0,
-        overflowX: "hidden",
-        overflowY: "auto",
-        overflowWrap: "break-word",
-        zIndex: 999,
+        top: "50px",
+        maxHeight: "653px",
       }}
     >
       <header style={{ color: "#4A4A4A", fontSize: "18px" }}>Contents</header>
-      <ul id="toc" className="section-nav">
+      <ul id="toc" className="section-nav font-noto">
         <li className="toc-entry nav-item toc-h2">
-          <a
-            className="nav-link"
-            href="#a-basic-dart-program"
-            onClick={() => {
-              TourOfTheDartRef.current.scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            A basic Dart program
-          </a>
+          <Link className="nav-link" href="#a-basic-dart-program">
+            Dart의 기본
+          </Link>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#important-concepts">
-            Important concepts
-          </a>
+          <Link className="nav-link" href="#important-concepts">
+            중요한 컨셉
+          </Link>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#keywords">
-            Keywords
-          </a>
+          <Link className="nav-link" href="#keywords">
+            키워드
+          </Link>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#variables">
-            Variables
-          </a>
+          <Link className="nav-link" href="#variables">
+            변수
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#default-value">
-                Default value
-              </a>
+              <Link className="nav-link" href="#default-value">
+                초기 값
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#late-variables">
-                Late variables
-              </a>
+              <Link className="nav-link" href="#late-variables">
+                Late 변수
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#final-and-const">
-                Final and const
-              </a>
+              <Link className="nav-link" href="#final-and-const">
+                Final 과 const
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link active" href="#built-in-types">
+          <Link className="nav-link active" href="#built-in-types">
             Built-in types
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#numbers">
+              <Link className="nav-link" href="#numbers">
                 Numbers
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#strings">
+              <Link className="nav-link" href="#strings">
                 Strings
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#booleans">
+              <Link className="nav-link" href="#booleans">
                 Booleans
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#lists">
+              <Link className="nav-link" href="#lists">
                 Lists
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#sets">
+              <Link className="nav-link" href="#sets">
                 Sets
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#maps">
+              <Link className="nav-link" href="#maps">
                 Maps
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a
+              <Link
                 className="nav-link active"
                 href="#runes-and-grapheme-clusters"
               >
                 Runes and grapheme clusters
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#symbols">
+              <Link className="nav-link" href="#symbols">
                 Symbols
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#functions">
+          <Link className="nav-link" href="#functions">
             Functions
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#parameters">
+              <Link className="nav-link" href="#parameters">
                 Parameters
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#the-main-function">
+              <Link className="nav-link" href="#the-main-function">
                 The main() function
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#functions-as-first-class-objects">
+              <Link
+                className="nav-link"
+                href="#functions-as-first-class-objects"
+              >
                 Functions as first-class objects
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#anonymous-functions">
+              <Link className="nav-link" href="#anonymous-functions">
                 Anonymous functions
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#lexical-scope">
+              <Link className="nav-link" href="#lexical-scope">
                 Lexical scope
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#lexical-closures">
+              <Link className="nav-link" href="#lexical-closures">
                 Lexical closures
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#testing-functions-for-equality">
+              <Link className="nav-link" href="#testing-functions-for-equality">
                 Testing functions for equality
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#return-values">
+              <Link className="nav-link" href="#return-values">
                 Return values
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#operators">
+          <Link className="nav-link" href="#operators">
             Operators
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#arithmetic-operators">
+              <Link className="nav-link" href="#arithmetic-operators">
                 Arithmetic operators
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#equality-and-relational-operators">
+              <Link
+                className="nav-link"
+                href="#equality-and-relational-operators"
+              >
                 Equality and relational operators
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#type-test-operators">
+              <Link className="nav-link" href="#type-test-operators">
                 Type test operators
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#assignment-operators">
+              <Link className="nav-link" href="#assignment-operators">
                 Assignment operators
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#logical-operators">
+              <Link className="nav-link" href="#logical-operators">
                 Logical operators
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#bitwise-and-shift-operators">
+              <Link className="nav-link" href="#bitwise-and-shift-operators">
                 Bitwise and shift operators
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#conditional-expressions">
+              <Link className="nav-link" href="#conditional-expressions">
                 Conditional expressions
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#cascade-notation">
+              <Link className="nav-link" href="#cascade-notation">
                 Cascade notation
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#other-operators">
+              <Link className="nav-link" href="#other-operators">
                 Other operators
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#control-flow-statements">
+          <Link className="nav-link" href="#control-flow-statements">
             Control flow statements
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#if-and-else">
+              <Link className="nav-link" href="#if-and-else">
                 If and else
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#for-loops">
+              <Link className="nav-link" href="#for-loops">
                 For loops
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#while-and-do-while">
+              <Link className="nav-link" href="#while-and-do-while">
                 While and do-while
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#break-and-continue">
+              <Link className="nav-link" href="#break-and-continue">
                 Break and continue
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#switch-and-case">
+              <Link className="nav-link" href="#switch-and-case">
                 Switch and case
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#assert">
+              <Link className="nav-link" href="#assert">
                 Assert
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#exceptions">
+          <Link className="nav-link" href="#exceptions">
             Exceptions
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#throw">
+              <Link className="nav-link" href="#throw">
                 Throw
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#catch">
+              <Link className="nav-link" href="#catch">
                 Catch
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#finally">
+              <Link className="nav-link" href="#finally">
                 Finally
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#classes">
+          <Link className="nav-link" href="#classes">
             Classes
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#using-class-members">
+              <Link className="nav-link" href="#using-class-members">
                 Using class members
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#using-constructors">
+              <Link className="nav-link" href="#using-constructors">
                 Using constructors
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#getting-an-objects-type">
+              <Link className="nav-link" href="#getting-an-objects-type">
                 Getting an object’s type
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#instance-variables">
+              <Link className="nav-link" href="#instance-variables">
                 Instance variables
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#constructors">
+              <Link className="nav-link" href="#constructors">
                 Constructors
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#methods">
+              <Link className="nav-link" href="#methods">
                 Methods
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#abstract-classes">
+              <Link className="nav-link" href="#abstract-classes">
                 Abstract classes
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#implicit-interfaces">
+              <Link className="nav-link" href="#implicit-interfaces">
                 Implicit interfaces
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#extending-a-class">
+              <Link className="nav-link" href="#extending-a-class">
                 Extending a class
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#extension-methods">
+              <Link className="nav-link" href="#extension-methods">
                 Extension methods
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#enumerated-types">
+              <Link className="nav-link" href="#enumerated-types">
                 Enumerated types
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#adding-features-to-a-class-mixins">
+              <Link
+                className="nav-link"
+                href="#adding-features-to-a-class-mixins"
+              >
                 Adding features to a class: mixins
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#class-variables-and-methods">
+              <Link className="nav-link" href="#class-variables-and-methods">
                 Class variables and methods
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#generics">
+          <Link className="nav-link" href="#generics">
             Generics
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#why-use-generics">
+              <Link className="nav-link" href="#why-use-generics">
                 Why use generics?
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#using-collection-literals">
+              <Link className="nav-link" href="#using-collection-literals">
                 Using collection literals
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a
+              <Link
                 className="nav-link"
                 href="#using-parameterized-types-with-constructors"
               >
                 Using parameterized types with constructors
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a
+              <Link
                 className="nav-link"
                 href="#generic-collections-and-the-types-they-contain"
               >
                 Generic collections and the types they contain
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a
+              <Link
                 className="nav-link"
                 href="#restricting-the-parameterized-type"
               >
                 Restricting the parameterized type
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#using-generic-methods">
+              <Link className="nav-link" href="#using-generic-methods">
                 Using generic methods
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#libraries-and-visibility">
+          <Link className="nav-link" href="#libraries-and-visibility">
             Libraries and visibility
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#using-libraries">
+              <Link className="nav-link" href="#using-libraries">
                 Using libraries
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#implementing-libraries">
+              <Link className="nav-link" href="#implementing-libraries">
                 Implementing libraries
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#asynchrony-support">
+          <Link className="nav-link" href="#asynchrony-support">
             Asynchrony support
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#handling-futures">
+              <Link className="nav-link" href="#handling-futures">
                 Handling Futures
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#declaring-async-functions">
+              <Link className="nav-link" href="#declaring-async-functions">
                 Declaring async functions
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#handling-streams">
+              <Link className="nav-link" href="#handling-streams">
                 Handling Streams
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#generators">
+          <Link className="nav-link" href="#generators">
             Generators
-          </a>
+          </Link>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#callable-classes">
+          <Link className="nav-link" href="#callable-classes">
             Callable classes
-          </a>
+          </Link>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#isolates">
+          <Link className="nav-link" href="#isolates">
             Isolates
-          </a>
+          </Link>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#typedefs">
+          <Link className="nav-link" href="#typedefs">
             Typedefs
-          </a>
+          </Link>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#metadata">
+          <Link className="nav-link" href="#metadata">
             Metadata
-          </a>
+          </Link>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#comments">
+          <Link className="nav-link" href="#comments">
             Comments
-          </a>
+          </Link>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#single-line-comments">
+              <Link className="nav-link" href="#single-line-comments">
                 Single-line comments
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#multi-line-comments">
+              <Link className="nav-link" href="#multi-line-comments">
                 Multi-line comments
-              </a>
+              </Link>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#documentation-comments">
+              <Link className="nav-link" href="#documentation-comments">
                 Documentation comments
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#summary">
+          <Link className="nav-link" href="#summary">
             Summary
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

@@ -12,6 +12,7 @@ const RAGC = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="runes-and-grapheme-clusters"
         className="font-noto text-primaryTitleTextColor"
       >
         Runces and grapheme clusters

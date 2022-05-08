@@ -10,6 +10,7 @@ const Booleans = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="booleans"
         className="font-noto text-primaryTitleTextColor"
       >
         Booleans

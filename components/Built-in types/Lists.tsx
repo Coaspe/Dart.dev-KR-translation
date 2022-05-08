@@ -11,6 +11,7 @@ const Lists = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="lists"
         className="font-noto text-primaryTitleTextColor"
       >
         Lists

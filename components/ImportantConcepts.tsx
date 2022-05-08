@@ -1,5 +1,6 @@
 import CAnchor from "./Custom/CAnchor";
 import Ccode from "./Custom/Ccode";
+import Link from "next/link";
 
 const ImportantConcepts = () => {
   return (
@@ -11,6 +12,7 @@ const ImportantConcepts = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="important-concepts"
         className="font-noto text-primaryTitleTextColor"
       >
         중요한 컨셉
@@ -55,12 +57,12 @@ const ImportantConcepts = () => {
               </svg>
             </i>
             <strong className="mx-1">Version note:</strong>
-            <a
+            <Link
               className="text-selectedText hover:text-selectedTextHover"
               href="https://dart.dev/null-safety"
             >
               Null safety
-            </a>
+            </Link>
             는 Dart 2.12에서 처음 소개되었습니다. null safety를 사용하기 위해서
             적어도 2.12. 이상의 버젼이 필요합니다.
           </aside>
@@ -74,12 +76,12 @@ const ImportantConcepts = () => {
         <li>
           <p>
             만약 당신이{" "}
-            <a
+            <Link
               className="text-selectedText hover:text-selectedTextHover"
               href="https://dart.dev/null-safety"
             >
               null safety
-            </a>
+            </Link>
             가 가능하다면, 당신이 어떤 변수가{" "}
             <code className="text-textGreen">null</code> 값을 갖는 것을 허락하지
             않았을 때 그 변수는 null 값을 갖을 수 없게 할 수 있습니다. 당신은 ?
@@ -104,12 +106,12 @@ const ImportantConcepts = () => {
             <code className="text-textGreen ml-1">Object?</code>나
             <code className="text-textGreen ml-1">Object</code>를 타입으로
             정해주면 된다. 만약에 런타임 까지 타입 체킹을 미뤄야 한다면{" "}
-            <a
+            <Link
               className="text-selectedText hover:text-selectedTextHover"
               href="https://dart.dev/guides/language/effective-dart/design#avoid-using-dynamic-unless-you-want-to-disable-static-checking"
             >
               special type dynamic
-            </a>{" "}
+            </Link>{" "}
             을 사용하세요.
           </p>
         </li>

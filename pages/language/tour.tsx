@@ -1,6 +1,8 @@
-import { useRef, useState } from "react";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 import BasicDartProgram from "../../components/BasicDartProgram";
 import BuiltInTypes from "../../components/Built-in types/BuiltInTypes";
+import Functions from "../../components/Functions/Functions";
 import Header from "../../components/Header";
 import ImportantConcepts from "../../components/ImportantConcepts";
 import Keywords from "../../components/Keywords";
@@ -10,28 +12,41 @@ import TourOfTheDartLanguage from "../../components/TourOfTheDartLauguage";
 import Variables from "../../components/Variables/Variables";
 
 const Tour = () => {
-  const TourOfTheDartRef = useRef(document.createElement("h2"));
+  const Router = useRouter();
+  useEffect(() => {
+    const element = document.getElementById(Router.asPath.split("#")[1]);
+    if (element) {
+      console.log(element);
+      element.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  }, [Router.asPath]);
   return (
-    <div className="w-full">
+    <div>
       <Header />
       <LeftSideBar selected="Tour" />
-      <TourRightSideBar TourOfTheDartRef={TourOfTheDartRef} />
-      <div
-        style={{
-          maxWidth: "960px",
-          marginLeft: "auto",
-          marginRight: "auto",
-          paddingTop: "55px",
-        }}
-        className="font-noto"
-      >
-        <TourOfTheDartLanguage TourOfTheDartRef={TourOfTheDartRef} />
-        <BasicDartProgram />
-        <ImportantConcepts />
-        <Keywords />
-        <Variables />
-        <BuiltInTypes />
-      </div>
+      <article>
+        <TourRightSideBar />
+        <div
+          style={{
+            maxWidth: "960px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            paddingTop: "55px",
+            padding: "20px",
+          }}
+          className="font-noto relative"
+        >
+          <TourOfTheDartLanguage />
+          <BasicDartProgram />
+          <ImportantConcepts />
+          <Keywords />
+          <Variables />
+          <BuiltInTypes />
+          <Functions />
+        </div>
+      </article>
     </div>
   );
 };

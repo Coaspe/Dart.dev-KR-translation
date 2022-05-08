@@ -251,3 +251,45 @@ ul {
 .nav {
   margin-left: 12px;
 }
+.alert.alert-success,
+.alert-success.mini-toc {
+  width: auto;
+  background-color: #ecfaf7;
+}
+#sidenav {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 226px;
+  border-right: 1px solid #d8d8d8;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1;
+}
+@media (min-width: 1024px) {
+  article {
+    margin-left: 226px;
+  }
+}
+@media (min-width: 1200px) {
+  article {
+    margin-right: 226px;
+  }
+}
+#sidenav .site-sidebar {
+  padding: 55px 30px 20px;
+}
+#site-toc--side {
+  position: fixed;
+  bottom: 0;
+  min-width: 226px;
+  max-width: 246px;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  z-index: 999;
+}
+#site-toc--side.site-toc {
+  padding: 55px 20px 20px 30px;
+}

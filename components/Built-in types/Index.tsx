@@ -4,6 +4,18 @@ import Ccode from "../Custom/Ccode";
 const Index = () => {
   return (
     <>
+      <h2
+        style={{
+          fontSize: "24px",
+          marginTop: "1.5em",
+          marginBottom: "0.5rem",
+          fontWeight: 600,
+        }}
+        id="built-in-types"
+        className="font-noto text-primaryTitleTextColor"
+      >
+        Built-in types
+      </h2>
       <p>Dart는 다음의 타입들을 지원합니다.</p>
       <ul
         style={{

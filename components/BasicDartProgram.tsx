@@ -1,9 +1,12 @@
+import Link from "next/link";
+
 const BasicDartProgram = () => {
   return (
     <>
       <h2
         style={{ fontSize: "24px", fontWeight: 600, marginTop: "1.5em" }}
         className="text-primaryTitleTextColor font-noto"
+        id="a-basic-dart-program"
       >
         Dart 프로그램의 기본
       </h2>
@@ -27,12 +30,12 @@ const BasicDartProgram = () => {
           </svg>
         </i>
         <strong className="mx-1">Note:</strong>이 사이트의 코드는{" "}
-        <a
+        <Link
           className="text-selectedText hover:text-selectedTextHover mx-1"
           href="https://dart.dev/guides/language/effective-dart/style"
         >
           Dart style guide
-        </a>{" "}
+        </Link>{" "}
         관습을 따릅니다.
       </aside>
     </>

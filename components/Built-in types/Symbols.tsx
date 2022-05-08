@@ -10,6 +10,7 @@ const Symbols = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="symbols"
         className="font-noto text-primaryTitleTextColor"
       >
         Symbols

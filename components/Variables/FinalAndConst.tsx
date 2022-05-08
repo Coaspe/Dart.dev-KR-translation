@@ -13,6 +13,7 @@ const FinalAndConst = () => {
           fontWeight: 600,
         }}
         className="font-noto text-primaryTitleTextColor"
+        id="final-and-const"
       >
         Final And Const
       </h2>

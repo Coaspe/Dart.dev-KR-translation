@@ -24,6 +24,9 @@ module.exports = {
         noto: ["Nanum Myeongjo"],
         roboto: "Roboto",
       },
+      screens: {
+        rightSide: "1200px",
+      },
     },
   },
   plugins: [],

@@ -10,9 +10,10 @@ const LateVariables = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="late-variables"
         className="font-noto text-primaryTitleTextColor"
       >
-        Late variables
+        Late 변수
       </h2>
       <p>
         Dart 2.12 에서 <Ccode text="late" /> 수식어가 추가 되었고 2가지 사용

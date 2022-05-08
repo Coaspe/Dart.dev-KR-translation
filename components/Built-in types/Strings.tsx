@@ -11,9 +11,10 @@ const Strings = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="strings"
         className="font-noto text-primaryTitleTextColor"
       >
-        Numbers
+        Strings
       </h2>
       <p>
         Dart의 string(

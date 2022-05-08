@@ -11,6 +11,7 @@ const Maps = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
+        id="maps"
         className="font-noto text-primaryTitleTextColor"
       >
         Maps
