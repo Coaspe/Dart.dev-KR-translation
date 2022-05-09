@@ -7,7 +7,6 @@ const Header = () => {
 
   return (
     <>
-      <div></div>
       <header
         className={`w-full h-header items-center bg-header flex justify-between sticky top-0 z-10`}
       >
@@ -22,16 +21,6 @@ const Header = () => {
           style={{ marginRight: "20px" }}
           className="flex items-center space-x-3"
         >
-          <li>
-            <button className="text-white px-2 py-1 border rounded-xl">
-              about
-            </button>
-          </li>
-          <li>
-            <button className="text-white px-2 py-1 border rounded-xl">
-              Contact
-            </button>
-          </li>
           {/* <li>
           <Link href="/overview">Overview</Link>
         </li>

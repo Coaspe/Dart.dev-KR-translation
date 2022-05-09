@@ -15,7 +15,7 @@ const Parameters = () => {
         id="parameters"
         className="font-noto text-primaryTitleTextColor"
       >
-        Functions
+        Parameters
       </h2>
       <p>
         함수는 <span className="itailc">required positional</span> 매개변수를

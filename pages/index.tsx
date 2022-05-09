@@ -16,6 +16,7 @@ import TourRightSideBar from "../components/RightSideBar/TourRightSideBar";
 import TourOfTheDartLanguage from "../components/TourOfTheDartLauguage";
 import Variables from "../components/Variables/Variables";
 import Opening from "../components/Opening";
+import Operators from "../components/Operators/Operators";
 
 const Home = () => {
   const Router = useRouter();
@@ -52,6 +53,7 @@ const Home = () => {
           <Variables />
           <BuiltInTypes />
           <Functions />
+          <Operators />
         </div>
       </article>
     </div>

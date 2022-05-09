@@ -154,6 +154,58 @@ const TourRightSideBar = () => {
             </li>
           </ul>
         </li>
+        <li className="toc-entry nav-item toc-h2">
+          <a className="nav-link active" href="#operators">
+            Operators
+          </a>
+          <ul className="nav">
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#arithmetic-operators">
+                Arithmetic operators
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#equality-and-relational-operators">
+                Equality and relational operators
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#type-test-operators">
+                Type test operators
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#assignment-operators">
+                Assignment operators
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#logical-operators">
+                Logical operators
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#bitwise-and-shift-operators">
+                Bitwise and shift operators
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#conditional-expressions">
+                Conditional expressions
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link active" href="#cascade-notation">
+                Cascade notation
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#other-operators">
+                Other operators
+              </a>
+            </li>
+          </ul>
+        </li>
         {/* <li className="toc-entry nav-item toc-h2">
           <Link className="nav-link" href="#operators">
             Operators

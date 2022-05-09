@@ -33,9 +33,11 @@ const LexicalClosures = () => {
         <span className="com">
           &#47;&#47;&#47; Returns a function that adds [addBy] to the
         </span>
+        <div />
         <span className="pln"></span>
         <span className="com">&#47;&#47;&#47; function&#39;s argument.</span>
         <span className="pln"></span>
+        <div />
         <span className="typ">Function</span>
         <span className="pln"> makeAdder</span>
         <span className="pun">(</span>

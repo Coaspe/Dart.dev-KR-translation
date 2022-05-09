@@ -6,6 +6,8 @@ import LexicalClosures from "./LexicalClosures";
 import LexicalScope from "./LexicalScope";
 import Main from "./Main";
 import Parameters from "./Parameters";
+import ReturnValues from "./ReturnValues";
+import TestingFunctions from "./TestingFucntions";
 
 const Functions = () => {
   return (
@@ -17,6 +19,8 @@ const Functions = () => {
       <Anonymous />
       <LexicalScope />
       <LexicalClosures />
+      <TestingFunctions />
+      <ReturnValues />
       {/* <div>
         <iframe
           src="https://dartpad.dev/embed-dart.html?theme=light&amp;run=dartpad&amp;split=false&amp;ga_id=anonymous_functions&amp;null_safety=false"

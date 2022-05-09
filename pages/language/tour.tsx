@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import ImportantConcepts from "../../components/ImportantConcepts";
 import Keywords from "../../components/Keywords";
 import LeftSideBar from "../../components/LeftSideBar";
+import Operators from "../../components/Operators/Operators";
 import TourRightSideBar from "../../components/RightSideBar/TourRightSideBar";
 import TourOfTheDartLanguage from "../../components/TourOfTheDartLauguage";
 import Variables from "../../components/Variables/Variables";
@@ -45,6 +46,7 @@ const Tour = () => {
           <Variables />
           <BuiltInTypes />
           <Functions />
+          <Operators />
         </div>
       </article>
     </div>
