@@ -17,6 +17,7 @@ import TourOfTheDartLanguage from "../components/TourOfTheDartLauguage";
 import Variables from "../components/Variables/Variables";
 import Opening from "../components/Opening";
 import Operators from "../components/Operators/Operators";
+import ControlFlowStatements from "../components/Control flow statements/ControlFlowStatements";
 
 const Home = () => {
   const Router = useRouter();
@@ -54,6 +55,7 @@ const Home = () => {
           <BuiltInTypes />
           <Functions />
           <Operators />
+          <ControlFlowStatements />
         </div>
       </article>
     </div>

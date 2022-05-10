@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 import BasicDartProgram from "../../components/BasicDartProgram";
 import BuiltInTypes from "../../components/Built-in types/BuiltInTypes";
+import ControlFlowStatements from "../../components/Control flow statements/ControlFlowStatements";
 import Functions from "../../components/Functions/Functions";
 import Header from "../../components/Header";
 import ImportantConcepts from "../../components/ImportantConcepts";
@@ -47,6 +48,7 @@ const Tour = () => {
           <BuiltInTypes />
           <Functions />
           <Operators />
+          <ControlFlowStatements />
         </div>
       </article>
     </div>

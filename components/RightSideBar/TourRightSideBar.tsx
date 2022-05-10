@@ -206,6 +206,43 @@ const TourRightSideBar = () => {
             </li>
           </ul>
         </li>
+        <li className="toc-entry nav-item toc-h2">
+          <a className="nav-link active" href="#control-flow-statements">
+            Control flow statements
+          </a>
+          <ul className="nav">
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#if-and-else">
+                If and else
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#for-loops">
+                For loops
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#while-and-do-while">
+                While and do-while
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#break-and-continue">
+                Break and continue
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#switch-and-case">
+                Switch and case
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link active" href="#assert">
+                Assert
+              </a>
+            </li>
+          </ul>
+        </li>
         {/* <li className="toc-entry nav-item toc-h2">
           <Link className="nav-link" href="#operators">
             Operators
