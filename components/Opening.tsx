@@ -23,7 +23,7 @@ const Opening = () => {
         조치하겠습니다.
       </p>
       <p>
-        현재 Language ➡️ Tour ➡️ Operators 까지 완료한 상태이고, 진행 중에
+        현재 Language ➡️ Tour ➡️ Exceptions 까지 완료한 상태이고, 진행 중에
         있습니다.
       </p>
       <p>
@@ -35,7 +35,7 @@ const Opening = () => {
       </p>
       <p>
         The translation work has been completed by Language ➡️ Tour ➡️
-        Operators, and it is still in progress.{" "}
+        Exceptions, and it is still in progress.{" "}
       </p>
       <p>Contact: aspalt85@gmail.com</p>
     </>

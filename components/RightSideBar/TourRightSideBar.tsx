@@ -243,6 +243,28 @@ const TourRightSideBar = () => {
             </li>
           </ul>
         </li>
+        <li className="toc-entry nav-item toc-h2">
+          <a className="nav-link active" href="#exceptions">
+            Exceptions
+          </a>
+          <ul className="nav">
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#throw">
+                Throw
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link" href="#catch">
+                Catch
+              </a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a className="nav-link active" href="#finally">
+                Finally
+              </a>
+            </li>
+          </ul>
+        </li>
         {/* <li className="toc-entry nav-item toc-h2">
           <Link className="nav-link" href="#operators">
             Operators
