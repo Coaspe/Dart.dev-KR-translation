@@ -19,6 +19,7 @@ import Opening from "../components/Opening";
 import Operators from "../components/Operators/Operators";
 import ControlFlowStatements from "../components/Control flow statements/ControlFlowStatements";
 import Exceptions from "../components/Exceptions/Exceptions";
+import Classes from "../components/Classes/Classes";
 
 const Home = () => {
   const Router = useRouter();
@@ -58,6 +59,7 @@ const Home = () => {
           <Operators />
           <ControlFlowStatements />
           <Exceptions />
+          <Classes />
         </div>
       </article>
     </div>
