@@ -26,7 +26,7 @@ const Constructors = () => {
         에 명시되어 있는 식별자를 사용해도 됩니다.)
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">class</span>
+        <span className="kwd">className=</span>
         <span className="pln"> </span>
         <span className="typ">Point</span>
         <span className="pln"> </span>
@@ -146,7 +146,7 @@ const Constructors = () => {
         인스턴스 변수만 가능합니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">class</span>
+        <span className="kwd">className=</span>
         <span className="pln"> </span>
         <span className="typ">Point</span>
         <span className="pln"> </span>
@@ -210,7 +210,7 @@ const Constructors = () => {
       </h3>
       <p>
         생성자를 선언하지 않았다면, 기본 생성자가 주어집니다. 기본 생성자는
-        인수가 없고, superclass의 인수가 없는 생성자를 호출합니다.
+        인수가 없고, superclassName=의 인수가 없는 생성자를 호출합니다.
       </p>
       <h3
         style={{
@@ -224,8 +224,8 @@ const Constructors = () => {
         생성자는 상속되지 않는다.
       </h3>
       <p>
-        Subclasses는 superclass로 부터 생성자를 상속받지 않습니다. 생성자를
-        선언하지 않은 subclass는 기본 생성자만을 가집니다.
+        SubclassName=es는 superclassName=로 부터 생성자를 상속받지 않습니다.
+        생성자를 선언하지 않은 subclassName=는 기본 생성자만을 가집니다.
       </p>
       <h3
         style={{
@@ -264,7 +264,7 @@ const Constructors = () => {
           <span className="pun">;</span>
           <div> </div>
           <span className="pln"></span>
-          <span className="kwd">class</span>
+          <span className="kwd">className=</span>
           <span className="pln"> </span>
           <span className="typ">Point</span>
           <span className="pln"> </span>
@@ -325,9 +325,9 @@ const Constructors = () => {
         </code>
       </pre>
       <p>
-        Superclass&#39;s의 생성자는 subclass로 상속되지 않는 다는 것을 꼭
-        기억하세요. 만약 subclass에서 superclass와 같은 생성자를 사용하고
-        싶다면, subclass에서도 똑같이 구현해야 합니다.
+        SuperclassName=&#39;s의 생성자는 subclassName=로 상속되지 않는 다는 것을
+        꼭 기억하세요. 만약 subclassName=에서 superclassName=와 같은 생성자를
+        사용하고 싶다면, subclassName=에서도 똑같이 구현해야 합니다.
       </p>
       <h3
         style={{
@@ -338,38 +338,38 @@ const Constructors = () => {
         }}
         className="font-noto text-primaryTitleTextColor"
       >
-        Superclass의 Non-default 생성자 호출
+        SuperclassName=의 Non-default 생성자 호출
       </h3>
       <p>
-        디폴트로, sublcass의 생성자는 superclass의 이름이 없고(unnamed), 인수가
-        없는(no-argument) 생성자를 호출합니다. Superclass의 생성자는 생성자
-        바디의 처음에 호출됩니다. 만약{" "}
+        디폴트로, sublcass의 생성자는 superclassName=의 이름이 없고(unnamed),
+        인수가 없는(no-argument) 생성자를 호출합니다. SuperclassName=의 생성자는
+        생성자 바디의 처음에 호출됩니다. 만약{" "}
         <CAnchor
           text="initializer list"
           href="https://dart.dev/guides/language/language-tour#initializer-list"
         />
-        가 사용되면, superclass가 호출되기 전에 실행됩니다. 요약하자면, 실행
-        순서는 다음과 같습니다.
+        가 사용되면, superclassName=가 호출되기 전에 실행됩니다. 요약하자면,
+        실행 순서는 다음과 같습니다.
       </p>
       <ol>
         <li>initializer list</li>
-        <li>superclass’s no-arg(인수가 없는) constructor</li>
-        <li>main class’s no-arg constructor</li>
+        <li>superclassName=’s no-arg(인수가 없는) constructor</li>
+        <li>main className=’s no-arg constructor</li>
       </ol>
       <p>
-        만약 superclass가 이름이 없고, 인수가 없는 생성자가 없다면, 반드시
-        superclass의 생성자 중 하나를 선택해서 호출해야 합니다. 생성자 바디에
-        콜론(
+        만약 superclassName=가 이름이 없고, 인수가 없는 생성자가 없다면, 반드시
+        superclassName=의 생성자 중 하나를 선택해서 호출해야 합니다. 생성자
+        바디에 콜론(
         <Ccode text=":" />
-        )를 붙혀서 선택한 superclass의 생성자를 명시하세요.
+        )를 붙혀서 선택한 superclassName=의 생성자를 명시하세요.
       </p>
       {/* 추가 */}
       <p>
-        superclass의 생성자로 전해지는 인수가, 생성자가 실행되기 전에 평가되기
-        때문에 인수는 함수 호출에서 처럼 표현식이 될 수 있습니다.
+        superclassName=의 생성자로 전해지는 인수가, 생성자가 실행되기 전에
+        평가되기 때문에 인수는 함수 호출에서 처럼 표현식이 될 수 있습니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">class</span>
+        <span className="kwd">className=</span>
         <span className="pln"> </span>
         <span className="typ">Employee</span>
         <span className="pln"> </span>
@@ -418,17 +418,17 @@ const Constructors = () => {
               ></path>
             </svg>
           </i>{" "}
-          <strong>Warning:</strong> superclass의 생성자로 전달되는 인수는
+          <strong>Warning:</strong> superclassName=의 생성자로 전달되는 인수는
           <code className="language-plaintext highlighter-rouge"> this</code>에
           접근 할 수 없습니다. 예를 들면, 인수는 정적 메서드를 호출 할 수
           있지만, 인스턴스 메서드는 호출 할 수 없습니다.
         </p>
       </aside>
       <p>
-        수동으로 superclass의 생성자 매개변수를 넘겨주는 것을 피하기 위해서,
-        super-initializer 매개변수를 superclass의 생성자로 넘겨주면 됩니다. 이
-        피쳐를 리다이랙팅 생성자와 사용하는 것은 불가능합니다. Super-initializer
-        매개변수는{" "}
+        수동으로 superclassName=의 생성자 매개변수를 넘겨주는 것을 피하기
+        위해서, super-initializer 매개변수를 superclassName=의 생성자로 넘겨주면
+        됩니다. 이 피쳐를 리다이랙팅 생성자와 사용하는 것은 불가능합니다.
+        Super-initializer 매개변수는{" "}
         <CAnchor
           text="initializing formal 매개변수"
           href="https://dart.dev/guides/language/language-tour#initializing-formal-parameters"
@@ -436,7 +436,7 @@ const Constructors = () => {
         와 비슷한 문법과 의미를 가집니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">class</span>
+        <span className="kwd">className=</span>
         <span className="pln"> </span>
         <span className="typ">Vector2d</span>
         <span className="pln"> </span>
@@ -472,7 +472,7 @@ const Constructors = () => {
         <span className="pun">&#125;</span>
         <div> </div>
         <span className="pln"></span>
-        <span className="kwd">class</span>
+        <span className="kwd">className=</span>
         <span className="pln"> </span>
         <span className="typ">Vector3d</span>
         <span className="pln"> </span>
@@ -528,7 +528,7 @@ const Constructors = () => {
         명명된(named) 매개변수로 선언하는 것은 가능합니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">class</span>
+        <span className="kwd">className=</span>
         <span className="pln"> </span>
         <span className="typ">Vector2d</span>
         <span className="pln"> </span>
@@ -560,7 +560,7 @@ const Constructors = () => {
         <span className="pun">&#125;</span>
         <div> </div>
         <span className="pln"></span>
-        <span className="kwd">class</span>
+        <span className="kwd">className=</span>
         <span className="pln"> </span>
         <span className="typ">Vector3d</span>
         <span className="pln"> </span>
@@ -666,7 +666,7 @@ const Constructors = () => {
         Initializer list
       </h3>
       <p>
-        Superclass 생성자를 호출할 뿐만 아니라 생성자 바디가 실행되기 전에
+        SuperclassName= 생성자를 호출할 뿐만 아니라 생성자 바디가 실행되기 전에
         인스턴스 변수를 초기화할 수도 있습니다. 이니셜라이저는 쉼표로
         구분합니다.
       </p>
@@ -745,6 +745,486 @@ const Constructors = () => {
           접근 할 수 없습니다.
         </p>
       </aside>
+      <p>
+        개발하는 동안, <Ccode text="assert" />를 초기화 리스트 안에 넣어서
+        input에 조건을 추가 할 수 있습니다.
+      </p>
+      <pre className="prettyprint lang-dart prettyprinted">
+        <code>
+          <span className="typ">Point</span>
+          <span className="pun">.</span>
+          <span className="pln">withAssert</span>
+          <span className="pun">(</span>
+          <span className="kwd">this</span>
+          <span className="pun">.</span>
+          <span className="pln">x</span>
+          <span className="pun">,</span>
+          <span className="pln"> </span>
+          <span className="kwd">this</span>
+          <span className="pun">.</span>
+          <span className="pln">y</span>
+          <span className="pun">)</span>
+          <span className="pln"> </span>
+          <span className="pun">:</span>
+          <span className="pln"> </span>
+          <span className="highlight">
+            <span className="kwd">assert</span>
+            <span className="pun">(</span>
+            <span className="pln">x </span>
+            <span className="pun">&gt;=</span>
+            <span className="pln"> </span>
+            <span className="lit">0</span>
+            <span className="pun">)</span>
+          </span>
+          <span className="pln"> </span>
+          <span className="pun">&#123;</span>
+          <div />
+          <span className="pln">{"  "}print</span>
+          <span className="pun">(</span>
+          <span className="str">&#39;In Point.withAssert(): ($x, $y)&#39;</span>
+          <span className="pun">);</span>
+          <div />
+          <span className="pln"></span>
+          <span className="pun">&#125;</span>
+        </code>
+      </pre>
+      <h3
+        style={{
+          fontSize: "18px",
+          marginTop: "1.5em",
+          marginBottom: "0.5rem",
+          fontWeight: 600,
+        }}
+        className="font-noto text-primaryTitleTextColor"
+      >
+        리디렉팅 생성자(Redirecting constructors)
+      </h3>
+      <p>
+        가끔 생성자의 목적이 같은 클래스 내의 다른 생성자로 리디렉트하는 겨우 일
+        때가 있습니다. 리디렉팅 생성자의 바디는 비어있고, 콜론(
+        <Ccode text=":" />) 뒤에 나오는, 클래스 이름 대신에{" "}
+        <Ccode text="this" />를 사용한 생성자 호출로 구성됩니다.
+      </p>
+      <pre className="prettyprint lang-dart prettyprinted">
+        <span className="kwd">className=</span>
+        <span className="pln"> </span>
+        <span className="typ">Point</span>
+        <span className="pln"> </span>
+        <span className="pun">&#123;</span>
+        <div />
+        <span className="pln"></span>
+        <span className="typ">{"  "}double</span>
+        <span className="pln"> x</span>
+        <span className="pun">,</span>
+        <span className="pln"> y</span>
+        <span className="pun">;</span>
+        <div> </div>
+        <span className="pln"></span>
+        <span className="com">
+          {"  "}&#47;&#47; The main constructor for this className=.
+        </span>
+        <span className="pln"></span>
+        <span className="typ">{"  "}Point</span>
+        <span className="pun">(</span>
+        <span className="kwd">this</span>
+        <span className="pun">.</span>
+        <span className="pln">x</span>
+        <span className="pun">,</span>
+        <span className="pln"> </span>
+        <span className="kwd">this</span>
+        <span className="pun">.</span>
+        <span className="pln">y</span>
+        <span className="pun">);</span>
+        <div> </div>
+        <span className="pln"></span>
+        <span className="com">
+          {"  "}&#47;&#47; Delegates to the main constructor.
+        </span>
+        <span className="pln"></span>
+        <span className="typ">{"  "}Point</span>
+        <span className="pun">.</span>
+        <span className="pln">alongXAxis</span>
+        <span className="pun">(</span>
+        <span className="typ">double</span>
+        <span className="pln"> x</span>
+        <span className="pun">)</span>
+        <span className="pln"> </span>
+        <span className="pun">:</span>
+        <span className="pln"> </span>
+        <span className="kwd">this</span>
+        <span className="pun">(</span>
+        <span className="pln">x</span>
+        <span className="pun">,</span>
+        <span className="pln"> </span>
+        <span className="lit">0</span>
+        <span className="pun">);</span>
+        <div />
+        <span className="pln"></span>
+        <span className="pun">&#125;</span>
+      </pre>
+      <h3
+        style={{
+          fontSize: "18px",
+          marginTop: "1.5em",
+          marginBottom: "0.5rem",
+          fontWeight: 600,
+        }}
+        className="font-noto text-primaryTitleTextColor"
+      >
+        상수(Constant) 생성자
+      </h3>
+      <p>
+        어떤 클래스가 절대 바뀌지 않는 객체를 생성한다면, 이 객체를 컴파일 타임
+        상수로 만들 수 있습니다. 생성자를 <Ccode text="const" />로 정의하고 모든
+        인스턴스 변수를 <Ccode text="final" />로 선언하면 됩니다.
+      </p>
+      <pre className="prettyprint lang-dart prettyprinted">
+        <span className="kwd">class</span>
+        <span className="pln"> </span>
+        <span className="typ">ImmutablePoint</span>
+        <span className="pln"> </span>
+        <span className="pun">&#123;</span>
+        <div />
+        <span className="pln"></span>
+        <span className="kwd">{"  "}static</span>
+        <span className="pln"> </span>
+        <span className="kwd">const</span>
+        <span className="pln"> </span>
+        <span className="typ">ImmutablePoint</span>
+        <span className="pln"> origin </span>
+        <span className="pun">=</span>
+        <span className="pln"> </span>
+        <span className="typ">ImmutablePoint</span>
+        <span className="pun">(</span>
+        <span className="lit">0</span>
+        <span className="pun">,</span>
+        <span className="pln"> </span>
+        <span className="lit">0</span>
+        <span className="pun">);</span>
+        <div> </div>
+        <span className="pln"></span>
+        <span className="kwd">{"  "}final</span>
+        <span className="pln"> </span>
+        <span className="typ">double</span>
+        <span className="pln"> x</span>
+        <span className="pun">,</span>
+        <span className="pln"> y</span>
+        <span className="pun">;</span>
+        <div> </div>
+        <span className="pln"></span>
+        <span className="kwd">{"  "}const</span>
+        <span className="pln"> </span>
+        <span className="typ">ImmutablePoint</span>
+        <span className="pun">(</span>
+        <span className="kwd">this</span>
+        <span className="pun">.</span>
+        <span className="pln">x</span>
+        <span className="pun">,</span>
+        <span className="pln"> </span>
+        <span className="kwd">this</span>
+        <span className="pun">.</span>
+        <span className="pln">y</span>
+        <span className="pun">);</span>
+        <div> </div>
+        <span className="pln"></span>
+        <span className="pun">&#125;</span>
+      </pre>
+      <p>
+        상수 생성자가 항상 상수를 생성하는 건 아닙니다. 더 자세히 알고 싶다면,{" "}
+        <CAnchor text="using constructors" href="#using-constructors" />를
+        참고하세요.
+      </p>
+      <h3
+        style={{
+          fontSize: "18px",
+          marginTop: "1.5em",
+          marginBottom: "0.5rem",
+          fontWeight: 600,
+        }}
+        id="factory-constructors"
+        className="font-noto text-primaryTitleTextColor"
+      >
+        Factory 생성자
+      </h3>
+      <p>
+        항상 어떤 클래스의 새로운 인스턴스를 생성하지 않는 생성자를 구현하고
+        싶다면, <Ccode text="factory" /> 키워드를 사용하세요. 예를 들면, factory
+        생성자는 인스턴스를 캐쉬나 서브타입에서 반환 할 수 있습니다. Factory
+        생성자는, final 변수를 초기화 리스트에서 다루지 않는 로직을 사용하여
+        초기화 하는 방법으로도 사용 할 수 있습니다.
+      </p>
+      <aside className="alert alert-success" role="alert">
+        <p>
+          <i className="" data-fa-i2svg="">
+            <svg
+              className="svg-inline--fa fa-lightbulb fa-w-11"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="far"
+              data-icon="lightbulb"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 352 512"
+              data-fa-i2svg=""
+            >
+              <path
+                fill="currentColor"
+                d="M176 80c-52.94 0-96 43.06-96 96 0 8.84 7.16 16 16 16s16-7.16 16-16c0-35.3 28.72-64 64-64 8.84 0 16-7.16 16-16s-7.16-16-16-16zM96.06 459.17c0 3.15.93 6.22 2.68 8.84l24.51 36.84c2.97 4.46 7.97 7.14 13.32 7.14h78.85c5.36 0 10.36-2.68 13.32-7.14l24.51-36.84c1.74-2.62 2.67-5.7 2.68-8.84l.05-43.18H96.02l.04 43.18zM176 0C73.72 0 0 82.97 0 176c0 44.37 16.45 84.85 43.56 115.78 16.64 18.99 42.74 58.8 52.42 92.16v.06h48v-.12c-.01-4.77-.72-9.51-2.15-14.07-5.59-17.81-22.82-64.77-62.17-109.67-20.54-23.43-31.52-53.15-31.61-84.14-.2-73.64 59.67-128 127.95-128 70.58 0 128 57.42 128 128 0 30.97-11.24 60.85-31.65 84.14-39.11 44.61-56.42 91.47-62.1 109.46a47.507 47.507 0 0 0-2.22 14.3v.1h48v-.05c9.68-33.37 35.78-73.18 52.42-92.16C335.55 260.85 352 220.37 352 176 352 78.8 273.2 0 176 0z"
+              ></path>
+            </svg>
+          </i>{" "}
+          <strong>Tip:</strong>
+          final 변수의 늦은(late) 초기화를 하기 위한 또 다른 방법으로는,
+          <a href="/guides/language/effective-dart/design#avoid-public-late-final-fields-without-initializers">
+            use{" "}
+            <code className="language-plaintext highlighter-rouge">
+              late final
+            </code>{" "}
+            (사용 주의!)
+          </a>
+          가 있습니다.
+        </p>
+      </aside>
+      <p>
+        다음 예제에서 <Ccode text="Logger" /> factory 생성자는 캐쉬에서 객체를
+        반환하고, <Ccode text="Logger.fromJson" /> factory 생성자는 final 변수를
+        JSON 객체로 부터 초기화 합니다.
+      </p>
+      <div className="code-excerpt">
+        <div className="code-excerpt__code">
+          <pre className="prettyprint lang-dart prettyprinted">
+            <span className="kwd">class</span>
+            <span className="pln"> </span>
+            <span className="typ">Logger</span>
+            <span className="pln"> </span>
+            <span className="pun">&#123;</span>
+            <span className="pln"></span>
+            <div />
+            <span className="kwd">{"  "}final</span>
+            <span className="pln"> </span>
+            <span className="typ">String</span>
+            <span className="pln"> name</span>
+            <span className="pun">;</span>
+            <div />
+            <span className="pln"></span>
+            <span className="typ">{"  "}bool</span>
+            <span className="pln"> mute </span>
+            <span className="pun">=</span>
+            <span className="pln"> </span>
+            <span className="kwd">false</span>
+            <span className="pun">;</span>
+            <div> </div>
+            <span className="pln"></span>
+            <span className="com">
+              {"  "}&#47;&#47; _cache is library-private, thanks to
+            </span>
+            <div />
+            <span className="pln"></span>
+            <span className="com">
+              {"  "}&#47;&#47; the _ in front of its name.
+            </span>
+            <div />
+            <span className="pln"></span>
+            <span className="kwd">{"  "}static</span>
+            <span className="pln"> </span>
+            <span className="kwd">final</span>
+            <span className="pln"> </span>
+            <span className="typ">Map</span>
+            <span className="pun">&lt;</span>
+            <span className="typ">String</span>
+            <span className="pun">,</span>
+            <span className="pln"> </span>
+            <span className="typ">Logger</span>
+            <span className="pun">&gt;</span>
+            <span className="pln"> _cache </span>
+            <span className="pun">=</span>
+            <span className="pln"> </span>
+            <span className="pun">&lt;</span>
+            <span className="typ">String</span>
+            <span className="pun">,</span>
+            <span className="pln"> </span>
+            <span className="typ">Logger</span>
+            <span className="pun">&gt;&#123;&#125;;</span>
+            <div> </div>
+            <span className="pln"></span>
+            <span className="kwd">{"  "}factory</span>
+            <span className="pln"> </span>
+            <span className="typ">Logger</span>
+            <span className="pun">(</span>
+            <span className="typ">String</span>
+            <span className="pln"> name</span>
+            <span className="pun">)</span>
+            <span className="pln"> </span>
+            <span className="pun">&#123;</span>
+            <div />
+            <span className="pln"></span>
+            <span className="kwd">{"    "}return</span>
+            <span className="pln"> _cache</span>
+            <span className="pun">.</span>
+            <span className="pln">putIfAbsent</span>
+            <span className="pun">(</span>
+            <span className="pln">name</span>
+            <span className="pun">,</span>
+            <span className="pln"> </span>
+            <span className="pun">()</span>
+            <span className="pln"> </span>
+            <span className="pun">=&gt;</span>
+            <span className="pln"> </span>
+            <span className="typ">Logger</span>
+            <span className="pun">.</span>
+            <span className="pln">_internal</span>
+            <span className="pun">(</span>
+            <span className="pln">name</span>
+            <span className="pun">));</span>
+            <div />
+            <span className="pln"></span>
+            <span className="pun">{"  "}&#125;</span>
+            <div> </div>
+            <span className="pln"></span>
+            <span className="kwd">{"  "}factory</span>
+            <span className="pln"> </span>
+            <span className="typ">Logger</span>
+            <span className="pun">.</span>
+            <span className="pln">fromJson</span>
+            <span className="pun">(</span>
+            <span className="typ">Map</span>
+            <span className="pun">&lt;</span>
+            <span className="typ">String</span>
+            <span className="pun">,</span>
+            <span className="pln"> </span>
+            <span className="typ">Object</span>
+            <span className="pun">&gt;</span>
+            <span className="pln"> json</span>
+            <span className="pun">)</span>
+            <span className="pln"> </span>
+            <span className="pun">&#123;</span>
+            <div />
+            <span className="pln"></span>
+            <span className="kwd">{"    "}return</span>
+            <span className="pln"> </span>
+            <span className="typ">Logger</span>
+            <span className="pun">(</span>
+            <span className="pln">json</span>
+            <span className="pun">[</span>
+            <span className="str">&#39;name&#39;</span>
+            <span className="pun">].</span>
+            <span className="pln">toString</span>
+            <span className="pun">());</span>
+            <div />
+            <span className="pln"></span>
+            <span className="pun">{"  "}&#125;</span>
+            <div> </div>
+            <span className="pln"></span>
+            <span className="typ">{"  "}Logger</span>
+            <span className="pun">.</span>
+            <span className="pln">_internal</span>
+            <span className="pun">(</span>
+            <span className="kwd">this</span>
+            <span className="pun">.</span>
+            <span className="pln">name</span>
+            <span className="pun">);</span>
+            <div> </div>
+            <span className="pln"></span>
+            <span className="typ">{"  "}void</span>
+            <span className="pln"> log</span>
+            <span className="pun">(</span>
+            <span className="typ">String</span>
+            <span className="pln"> msg</span>
+            <span className="pun">)</span>
+            <span className="pln"> </span>
+            <span className="pun">&#123;</span>
+            <div />
+            <span className="pln"></span>
+            <span className="kwd">{"    "}if</span>
+            <span className="pln"> </span>
+            <span className="pun">(!</span>
+            <span className="pln">mute</span>
+            <span className="pun">)</span>
+            <span className="pln"> print</span>
+            <span className="pun">(</span>
+            <span className="pln">msg</span>
+            <span className="pun">);</span>
+            <div />
+            <span className="pln"></span>
+            <span className="pun">{"  "}&#125;</span>
+            <span className="pln"></span>
+            <div />
+            <span className="pun">&#125;</span>
+          </pre>
+        </div>
+      </div>
+      <aside className="alert alert-info" role="alert">
+        <p>
+          <i>
+            <svg
+              className="svg-inline--fa fa-info-circle fa-w-16"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="info-circle"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              data-fa-i2svg=""
+            >
+              <path
+                fill="currentColor"
+                d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+              ></path>
+            </svg>
+          </i>{" "}
+          <strong>Note:</strong>
+          Factory 생성자는{" "}
+          <code className="language-plaintext highlighter-rouge">this</code>에
+          접근 할 수 없습니다.
+        </p>
+      </aside>
+      <p>다른 생성자를 호출 할 때 처럼, factory 생성자를 호출하세요.</p>
+      <div className="code-excerpt">
+        <div className="code-excerpt__code">
+          <pre className="prettyprint lang-dart prettyprinted">
+            <span className="kwd">var</span>
+            <span className="pln"> logger </span>
+            <span className="pun">=</span>
+            <span className="pln"> </span>
+            <span className="typ">Logger</span>
+            <span className="pun">(</span>
+            <span className="str">&#39;UI&#39;</span>
+            <span className="pun">);</span>
+            <div />
+            <span className="pln">logger</span>
+            <span className="pun">.</span>
+            <span className="pln">log</span>
+            <span className="pun">(</span>
+            <span className="str">&#39;Button clicked&#39;</span>
+            <span className="pun">);</span>
+            <div> </div>
+            <span className="pln"></span>
+            <span className="kwd">var</span>
+            <span className="pln"> logMap </span>
+            <span className="pun">=</span>
+            <span className="pln"> </span>
+            <span className="pun">&#123;</span>
+            <span className="str">&#39;name&#39;</span>
+            <span className="pun">:</span>
+            <span className="pln"> </span>
+            <span className="str">&#39;UI&#39;</span>
+            <span className="pun">&#125;;</span>
+            <div />
+            <span className="pln"></span>
+            <span className="kwd">var</span>
+            <span className="pln"> loggerJson </span>
+            <span className="pun">=</span>
+            <span className="pln"> </span>
+            <span className="typ">Logger</span>
+            <span className="pun">.</span>
+            <span className="pln">fromJson</span>
+            <span className="pun">(</span>
+            <span className="pln">logMap</span>
+            <span className="pun">);</span>
+          </pre>
+        </div>
+      </div>
     </>
   );
 };

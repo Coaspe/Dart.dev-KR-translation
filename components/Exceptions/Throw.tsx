@@ -50,23 +50,23 @@ const Throw = () => {
             </svg>
           </i>{" "}
           <strong>Note:</strong>
-          실제 사용 가능한 수준의 코드들은
+          실제 사용 가능한 수준의 코드들은{" "}
           <a
-            href="https://api.dart.dev/stable/dart-core/Error-class.html"
+            href="https://api.dart.dev/stable/dart-core/Error-className=.html"
             className="external"
           >
             <code className="language-plaintext highlighter-rouge">Error</code>
           </a>{" "}
-          나
+          나{" "}
           <a
-            href="https://api.dart.dev/stable/dart-core/Exception-class.html"
+            href="https://api.dart.dev/stable/dart-core/Exception-className=.html"
             className="external"
           >
             <code className="language-plaintext highlighter-rouge">
               Exception
             </code>
           </a>
-          에 구현되어 있는 타입을 발생시킵니다.
+          에 구현되어 있는 에러 타입을 발생시킵니다.
         </p>
       </aside>
       <p>

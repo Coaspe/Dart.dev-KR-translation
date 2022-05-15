@@ -35,7 +35,7 @@ const Variables = () => {
       </p>
       <p>
         <Ccode text="name" />의 타입은 <Ccode text="String" />
-        으로 추정되지만, 타입을 특정하므로서 변환이 가능합니다. object가 single
+        으로 추정되지만, 타입을 특정하므로써 변환이 가능합니다. object가 single
         타입으로 강제되어 있지 않다면 <Ccode text="Object" /> 타입으로
         명시하세요.(필요하다면 <Ccode text="dynamic" />을 사용하는 것도
         가능합니다.)

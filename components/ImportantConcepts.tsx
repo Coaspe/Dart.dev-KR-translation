@@ -34,9 +34,9 @@ const ImportantConcepts = () => {
         <li>
           <p>
             변수로 할당 할 수 있는 모든 것은 object(객체)이고 모든 object는
-            class의 instance 입니다. numbers, functions 그리고 null까지 모두
-            objects 입니다. null을 제외하고(만약 sound null safety가 가능하다면)
-            모든 objects들은 Object class를 상속받습니다.
+            className=의 instance 입니다. numbers, functions 그리고 null까지
+            모두 objects 입니다. null을 제외하고(만약 sound null safety가
+            가능하다면) 모든 objects들은 Object className=를 상속받습니다.
           </p>
           <aside className="font-noto font-bold">
             <i className="inline-block">
@@ -123,14 +123,14 @@ const ImportantConcepts = () => {
         </li>
         <li style={{ marginBottom: "1rem" }}>
           <p>
-            Dart는 class또는 Object에 있는(tied) 함수뿐 아니라,
+            Dart는 className=또는 Object에 있는(tied) 함수뿐 아니라,
             <Ccode className="ml-1" text="main()" /> 같은 top-level 함수를
             지원합니다. 함수 안에 함수를 선언하는 것도 가능합니다.
           </p>
         </li>
         <li style={{ marginBottom: "1rem" }}>
           <p>
-            비슷하게 Dart는 class또는 Object에 있는(tied) 변수뿐 아니라,
+            비슷하게 Dart는 className=또는 Object에 있는(tied) 변수뿐 아니라,
             top-level 변수를 지원합니다. 인스턴스{" "}
             <span className="italic">변수</span>는{" "}
             <span className="italic">fields</span>나{" "}

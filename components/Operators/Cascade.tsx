@@ -123,7 +123,7 @@ const Cascade = () => {
         <div />
         <span className="pln"></span>
         <span className="pun">{"  "}..</span>
-        <span className="pln">classes</span>
+        <span className="pln">className=es</span>
         <span className="pun">.</span>
         <span className="pln">add</span>
         <span className="pun">(</span>
@@ -194,7 +194,7 @@ const Cascade = () => {
         <div />
         <span className="pln">button</span>
         <span className="pun">?.</span>
-        <span className="pln">classes</span>
+        <span className="pln">className=es</span>
         <span className="pun">.</span>
         <span className="pln">add</span>
         <span className="pun">(</span>

@@ -20,6 +20,7 @@ import Operators from "../components/Operators/Operators";
 import ControlFlowStatements from "../components/Control flow statements/ControlFlowStatements";
 import Exceptions from "../components/Exceptions/Exceptions";
 import Classes from "../components/Classes/Classes";
+import Generics from "../components/Generics/Generics";
 
 const Home = () => {
   const Router = useRouter();
@@ -60,6 +61,7 @@ const Home = () => {
           <ControlFlowStatements />
           <Exceptions />
           <Classes />
+          <Generics />
         </div>
       </article>
     </div>

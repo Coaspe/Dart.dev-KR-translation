@@ -7,7 +7,7 @@ const KeywordsTable = () => {
         <tbody className="table-body">
           <tr>
             <td>
-              <Link href="#abstract-classes">abstract</Link>&nbsp;
+              <Link href="#abstract-className=es">abstract</Link>&nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>
@@ -34,7 +34,7 @@ const KeywordsTable = () => {
               <Link href="#for-loops">in</Link>
             </td>
             <td>
-              <Link href="#class-variables-and-methods">static</Link>&nbsp;
+              <Link href="#className=-variables-and-methods">static</Link>&nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
           </tr>
@@ -54,7 +54,7 @@ const KeywordsTable = () => {
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <Link href="#extending-a-class">super</Link>
+              <Link href="#extending-a-className=">super</Link>
             </td>
           </tr>
           <tr className="">
@@ -63,7 +63,7 @@ const KeywordsTable = () => {
               <sup title="contextual keyword">1</sup>
             </td>
             <td>
-              <Link href="#extending-a-class">extends</Link>
+              <Link href="#extending-a-className=">extends</Link>
             </td>
             <td>
               <Link href="#type-test-operators">is</Link>
@@ -121,7 +121,8 @@ const KeywordsTable = () => {
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>
-              <Link href="#adding-features-to-a-class-mixins">mixin</Link>&nbsp;
+              <Link href="#adding-features-to-a-className=-mixins">mixin</Link>
+              &nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>
@@ -144,7 +145,7 @@ const KeywordsTable = () => {
           </tr>
           <tr>
             <td>
-              <Link href="#instance-variables">class</Link>
+              <Link href="#instance-variables">className=</Link>
             </td>
             <td>
               <Link href="#final-and-const">final</Link>
@@ -239,7 +240,7 @@ const KeywordsTable = () => {
               <Link href="#catch">rethrow</Link>
             </td>
             <td>
-              <Link href="#adding-features-to-a-class-mixins">with</Link>
+              <Link href="#adding-features-to-a-className=-mixins">with</Link>
             </td>
           </tr>
           <tr>

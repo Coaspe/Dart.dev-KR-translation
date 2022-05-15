@@ -1,6 +1,6 @@
 import Ccode from "../Custom/Ccode";
 
-const UsingClassMembers = () => {
+const UsingClassMember = () => {
   return (
     <>
       <h2
@@ -10,7 +10,7 @@ const UsingClassMembers = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="using-class-members"
+        id="using-className=-members"
         className="font-noto text-primaryTitleTextColor"
       >
         클래스 멤버 사용하기
@@ -93,4 +93,4 @@ const UsingClassMembers = () => {
   );
 };
 
-export default UsingClassMembers;
+export default UsingClassMember;

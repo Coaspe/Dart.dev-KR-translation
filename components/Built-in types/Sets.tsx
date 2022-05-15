@@ -22,7 +22,7 @@ const Sets = () => {
         set 리터럴 및{" "}
         <CAnchor
           text="Sets"
-          href="https://api.dart.dev/stable/dart-core/Set-class.html"
+          href="https://api.dart.dev/stable/dart-core/Set-className=.html"
         />{" "}
         type로 지원됩니다.
       </p>

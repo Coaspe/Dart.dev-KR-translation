@@ -21,14 +21,14 @@ const Index = () => {
         Dart는 객체지향 언어입니다. 그렇기에 함수또한 객체이고 타입을 가집니다.{" "}
         <CAnchor
           text="함수"
-          href="https://api.dart.dev/stable/dart-core/Function-class.html"
+          href="https://api.dart.dev/stable/dart-core/Function-className=.html"
         />{" "}
         이것은 함수가 변수에 할당되고, 다른 함수의 매개변수로 전달 될 수 있다는
         것을 의미합니다. Dart 클래스의 인스턴스를 함수처럼 호출하는 것 또한
         가능합니다. 더 자세한 정보를 원한다면,{" "}
         <CAnchor
-          text="Callable classes"
-          href="https://dart.dev/guides/language/language-tour#callable-classes"
+          text="Callable className=es"
+          href="https://dart.dev/guides/language/language-tour#callable-className=es"
         />
         를 참고하세요.
       </p>

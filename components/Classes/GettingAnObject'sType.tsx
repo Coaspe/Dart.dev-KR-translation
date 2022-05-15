@@ -20,7 +20,7 @@ const GettingAnObjectsType = () => {
         런타임에서 객체의 타입을 얻고 싶다면,{" "}
         <CAnchor
           text="Type"
-          href="https://api.dart.dev/stable/dart-core/Type-class.html"
+          href="https://api.dart.dev/stable/dart-core/Type-className=.html"
         />{" "}
         객체를 반환하는 <Ccode text="Object" />의 프로퍼티인{" "}
         <Ccode text="runtimeType" />을 사용하세요.

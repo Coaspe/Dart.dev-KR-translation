@@ -21,7 +21,7 @@ const RAGC = () => {
         Dart에서{" "}
         <CAnchor
           text="runes"
-          href="https://api.dart.dev/stable/dart-core/Runes-class.html"
+          href="https://api.dart.dev/stable/dart-core/Runes-className=.html"
         />
         는 string의 유니코드 코드 포인트를 나타냅니다.{" "}
         <CAnchor
@@ -52,7 +52,7 @@ const RAGC = () => {
         반환된{" "}
         <CAnchor
           text="Characters"
-          href="https://pub.dev/documentation/characters/latest/characters/Characters-class.html"
+          href="https://pub.dev/documentation/characters/latest/characters/Characters-className=.html"
         />
         객체는 graphem clusters의 시퀀스로 이루어진 string 입니다. 아래는
         characters API를 사용한 예제 입니다:

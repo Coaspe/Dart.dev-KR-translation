@@ -34,12 +34,12 @@ const Index = () => {
         Dart는 다양한 서브 타입들을 제공하는{" "}
         <CAnchor
           text="Exception"
-          href="https://api.dart.dev/stable/dart-core/Exception-class.html"
+          href="https://api.dart.dev/stable/dart-core/Exception-className=.html"
         />
         와{" "}
         <CAnchor
           text="Error"
-          href="https://api.dart.dev/stable/dart-core/Error-class.html"
+          href="https://api.dart.dev/stable/dart-core/Error-className=.html"
         />
         를 제공합니다. 물론 예외를 정의하는 것이 가능합니다. 그러나 Dart
         프로그램은 Exception이나 Error 객체 이 외에도 null이 아닌(non-null)

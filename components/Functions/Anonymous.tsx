@@ -10,7 +10,7 @@ const Anonymous = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="functions-as-first-class-objects"
+        id="functions-as-first-className=-objects"
         className="font-noto text-primaryTitleTextColor"
       >
         익명 함수

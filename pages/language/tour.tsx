@@ -2,9 +2,11 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 import BasicDartProgram from "../../components/BasicDartProgram";
 import BuiltInTypes from "../../components/Built-in types/BuiltInTypes";
+import Classes from "../../components/Classes/Classes";
 import ControlFlowStatements from "../../components/Control flow statements/ControlFlowStatements";
 import Exceptions from "../../components/Exceptions/Exceptions";
 import Functions from "../../components/Functions/Functions";
+import Generics from "../../components/Generics/Generics";
 import Header from "../../components/Header";
 import ImportantConcepts from "../../components/ImportantConcepts";
 import Keywords from "../../components/Keywords";
@@ -51,6 +53,8 @@ const Tour = () => {
           <Operators />
           <ControlFlowStatements />
           <Exceptions />
+          <Classes />
+          <Generics />
         </div>
       </article>
     </div>

@@ -1,4 +1,3 @@
-import { text } from "stream/consumers";
 import CAnchor from "../Custom/CAnchor";
 import Ccode from "../Custom/Ccode";
 
@@ -102,9 +101,9 @@ const FinalAndConst = () => {
           컴파일 타임 상수&#40;compile time constant&#41;
         </span>
         를 생성하고 싶다면, <Ccode text="const" />를 사용하세요. 만약 const
-        변수가 class level 이라면, <Ccode text="static const" />로 선언하세요.
-        변수를 선언 할 때 숫자나 문자 리터럴 같은 컴파일 타임 상수로 선언하거나,
-        산술 연산의 결과를 숫자 상수로 설정합니다.
+        변수가 className= level 이라면, <Ccode text="static const" />로
+        선언하세요. 변수를 선언 할 때 숫자나 문자 리터럴 같은 컴파일 타임 상수로
+        선언하거나, 산술 연산의 결과를 숫자 상수로 설정합니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
         <span className="kwd">const</span>
@@ -351,8 +350,8 @@ const FinalAndConst = () => {
         ,
         <CAnchor
           className="ml-1"
-          text="Classes"
-          href="https://dart.dev/guides/language/language-tour#classes"
+          text="className=es"
+          href="https://dart.dev/guides/language/language-tour#className=es"
         />
         를 참고하세요.
       </p>

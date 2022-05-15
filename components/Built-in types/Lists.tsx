@@ -22,7 +22,7 @@ const Lists = () => {
         것입니다. Dart에서 arrays는{" "}
         <CAnchor
           text="List"
-          href="https://api.dart.dev/stable/dart-core/List-class.html"
+          href="https://api.dart.dev/stable/dart-core/List-className=.html"
         />{" "}
         객체이므로 많은 사람들이 <span className="italic">lists</span>라고
         부릅니다.

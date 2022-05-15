@@ -18,7 +18,7 @@ const Symbols = () => {
       <p>
         <CAnchor
           text="Symbol"
-          href="https://api.dart.dev/stable/dart-core/Symbol-class.html"
+          href="https://api.dart.dev/stable/dart-core/Symbol-className=.html"
         />{" "}
         객체는 Dart 프로그램에 선언된 연산자나 식별자를 나타냅니다.
       </p>

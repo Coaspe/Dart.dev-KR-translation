@@ -138,8 +138,8 @@ const Index = () => {
         <Ccode text="true" />는 boolean 리터럴 입니다.
       </p>
       <p>
-        Dart의 모든 변수들은 <span className="italic">class</span>의 인스턴스인
-        객체이므로, 변수를 초기화 할 때,{" "}
+        Dart의 모든 변수들은 <span className="italic">className=</span>의
+        인스턴스인 객체이므로, 변수를 초기화 할 때,{" "}
         <span className="italic">생성자&#40;constructors&#41;</span>를
         사용합니다. 예를 들면, <Ccode className="mr-1" text="Map()" />
         생성자를 map을 생성하기 위해 사용합니다.
@@ -157,13 +157,13 @@ const Index = () => {
           <p style={{ marginBottom: "0" }}>
             <Ccode text="Object" />
             :
-            <Ccode className="ml-1" text="Null" />을 제외한 모든 Dart classes의
-            superclass
+            <Ccode className="ml-1" text="Null" />을 제외한 모든 Dart
+            className=es의 superclassName=
           </p>
         </li>
         <li>
           <p style={{ marginBottom: "0" }}>
-            <Ccode text="Enum" />: enums의 superclass
+            <Ccode text="Enum" />: enums의 superclassName=
           </p>
         </li>
         <li>

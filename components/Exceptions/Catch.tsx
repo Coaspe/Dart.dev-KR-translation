@@ -134,7 +134,7 @@ const Catch = () => {
         발생될 예외이고, 두 번째는{" "}
         <CAnchor
           text="StackTrace"
-          href="https://api.dart.dev/stable/dart-core/StackTrace-class.html"
+          href="https://api.dart.dev/stable/dart-core/StackTrace-className=.html"
         />{" "}
         입니다.
       </p>

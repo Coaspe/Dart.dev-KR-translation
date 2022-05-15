@@ -21,7 +21,7 @@ const Numbers = () => {
         <dt>
           <CAnchor
             text="int"
-            href="https://api.dart.dev/stable/dart-core/int-class.html"
+            href="https://api.dart.dev/stable/dart-core/int-className=.html"
           />
         </dt>
         <dd>
@@ -39,7 +39,7 @@ const Numbers = () => {
         <dt>
           <CAnchor
             text="double"
-            href="https://api.dart.dev/stable/dart-core/double-class.html"
+            href="https://api.dart.dev/stable/dart-core/double-className=.html"
           />
         </dt>
         <dd>
@@ -53,7 +53,7 @@ const Numbers = () => {
         <Ccode text="int" />와 <Ccode text="double" />은 모두{" "}
         <CAnchor
           text="num"
-          href="https://api.dart.dev/stable/dart-core/num-class.html"
+          href="https://api.dart.dev/stable/dart-core/num-className=.html"
         />
         의 subtypes 입니다. num 타입은 +, -, /, * 같은 기본적인 연산자 사용이
         가능하고, <Ccode text="abs()" />, <Ccode text="ceil()" />,{" "}

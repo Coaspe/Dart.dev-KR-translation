@@ -18,8 +18,9 @@ const UsingConstructors = () => {
       </h2>
       <p>
         <span className="italic">생성자</span>를 사용하여 객체를 생성 할 수
-        있습니다. 생성자의 이름은 <Ccode className="italic" text="ClassName" />,{" "}
-        <Ccode className="italic" text="ClassName.identifier" />이 될 수
+        있습니다. 생성자의 이름은{" "}
+        <Ccode className="italic" text="className=Name" />,{" "}
+        <Ccode className="italic" text="className=Name.identifier" />이 될 수
         있습니다. 예를 들면, 다음의 예제에서 <Ccode text="Point" /> 객체를{" "}
         <Ccode text="Point()" />와 <Ccode text="Point.fromJson()" /> 생성자를
         사용하여 생성합니다:

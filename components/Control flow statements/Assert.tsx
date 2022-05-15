@@ -88,7 +88,7 @@ const Assert = () => {
         진행됩니다. 만약 false라면, assertion은 실패하고 exception(
         <CAnchor
           text="AssertionError"
-          href="https://api.dart.dev/stable/dart-core/AssertionError-class.html"
+          href="https://api.dart.dev/stable/dart-core/AssertionError-className=.html"
         />
         ) 이 발생합니다.
       </p>

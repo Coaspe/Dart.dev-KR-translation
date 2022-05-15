@@ -147,8 +147,8 @@ const Other = () => {
         <Ccode text="." />, <Ccode text="?" />, <Ccode text=".." /> 연산자에
         대해 더 자세히 알고 싶다면,{" "}
         <CAnchor
-          text="Classes"
-          href="https://dart.dev/guides/language/language-tour#classes"
+          text="className=es"
+          href="https://dart.dev/guides/language/language-tour#className=es"
         />
         를 참고하세요.
       </p>

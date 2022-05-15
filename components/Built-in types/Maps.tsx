@@ -24,7 +24,7 @@ const Maps = () => {
         가능합니다. Dart는 map 리터럴과{" "}
         <CAnchor
           text="Map"
-          href="https://api.dart.dev/stable/dart-core/Map-class.html"
+          href="https://api.dart.dev/stable/dart-core/Map-className=.html"
         />{" "}
         타입으로 maps를 지원합니다.
       </p>

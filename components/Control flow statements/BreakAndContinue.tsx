@@ -110,7 +110,7 @@ const BreakAndContinue = () => {
         만약 list와 set 같은{" "}
         <CAnchor
           text="Iterable"
-          href="https://api.dart.dev/stable/dart-core/Iterable-class.html"
+          href="https://api.dart.dev/stable/dart-core/Iterable-className=.html"
         />{" "}
         을 사용한다면, 위의 예를 다음과 같이 바꿀 수 있습니다.
       </p>
