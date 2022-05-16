@@ -18,7 +18,7 @@ const InstanceVariables = () => {
       </h2>
       <p>인스턴스 변수는 다음과 같이 선언합니다.</p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Point</span>
         <span className="pln"> </span>
@@ -75,7 +75,7 @@ const InstanceVariables = () => {
         생성자와 해당 initializer 목록이 실행되기 전에 값이 설정됩니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Point</span>
         <span className="pln"> </span>
@@ -168,7 +168,7 @@ const InstanceVariables = () => {
         를 사용해 초기화 하세요.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">ProfileMark</span>
         <span className="pln"> </span>

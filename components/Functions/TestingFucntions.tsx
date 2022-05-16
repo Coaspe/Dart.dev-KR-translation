@@ -26,7 +26,7 @@ const TestingFunctions = () => {
         <span className="pln"> </span>
         <span className="com">&#47;&#47; A top-level function</span>
         <div> </div>
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">A</span>
         <span className="pln"> </span>

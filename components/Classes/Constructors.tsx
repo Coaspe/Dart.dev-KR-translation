@@ -26,7 +26,7 @@ const Constructors = () => {
         에 명시되어 있는 식별자를 사용해도 됩니다.)
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Point</span>
         <span className="pln"> </span>
@@ -146,7 +146,7 @@ const Constructors = () => {
         인스턴스 변수만 가능합니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Point</span>
         <span className="pln"> </span>
@@ -264,7 +264,7 @@ const Constructors = () => {
           <span className="pun">;</span>
           <div> </div>
           <span className="pln"></span>
-          <span className="kwd">className=</span>
+          <span className="kwd">class</span>
           <span className="pln"> </span>
           <span className="typ">Point</span>
           <span className="pln"> </span>
@@ -369,7 +369,7 @@ const Constructors = () => {
         평가되기 때문에 인수는 함수 호출에서 처럼 표현식이 될 수 있습니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Employee</span>
         <span className="pln"> </span>
@@ -436,7 +436,7 @@ const Constructors = () => {
         와 비슷한 문법과 의미를 가집니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Vector2d</span>
         <span className="pln"> </span>
@@ -472,7 +472,7 @@ const Constructors = () => {
         <span className="pun">&#125;</span>
         <div> </div>
         <span className="pln"></span>
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Vector3d</span>
         <span className="pln"> </span>
@@ -528,7 +528,7 @@ const Constructors = () => {
         명명된(named) 매개변수로 선언하는 것은 가능합니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Vector2d</span>
         <span className="pln"> </span>
@@ -560,7 +560,7 @@ const Constructors = () => {
         <span className="pun">&#125;</span>
         <div> </div>
         <span className="pln"></span>
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Vector3d</span>
         <span className="pln"> </span>
@@ -806,7 +806,7 @@ const Constructors = () => {
         <Ccode text="this" />를 사용한 생성자 호출로 구성됩니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
-        <span className="kwd">className=</span>
+        <span className="kwd">class</span>
         <span className="pln"> </span>
         <span className="typ">Point</span>
         <span className="pln"> </span>
