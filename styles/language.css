@@ -17725,3 +17725,6 @@ a.frontanchor {
 .toc-entry.side_nav_active > a {
   color: #1967d2;
 }
+.toc-entry.side_nav_active > .nav-link {
+  color: #1967d2;
+}

@@ -16,7 +16,6 @@ const Methods = () => {
       >
         Methods
       </h2>
-      <p>메서드(Method)는 객체가 가지고 있는 함수를 뜻합니다.</p>
       <h3
         style={{
           fontSize: "18px",

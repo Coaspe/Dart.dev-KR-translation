@@ -23,8 +23,8 @@ const Opening = () => {
         조치하겠습니다.
       </p>
       <p>
-        현재 Language ➡️ Tour ➡️ Generics 까지 완료한 상태이고, 진행 중에
-        있습니다.
+        현재 Language ➡️ Tour ➡️ Libraries and visibility 까지 완료한 상태이고,
+        진행 중에 있습니다.
       </p>
       <p>
         This web page is a site that translates{" "}
@@ -34,8 +34,8 @@ const Opening = () => {
         problem, I will take care of it right away.
       </p>
       <p>
-        The translation work has been completed by Language ➡️ Tour ➡️ Generics,
-        and it is still in progress.{" "}
+        The translation work has been completed by Language ➡️ Tour ➡️ Libraries
+        and visibility, and it is still in progress.{" "}
       </p>
       <p>Contact: aspalt85@gmail.com</p>
     </>

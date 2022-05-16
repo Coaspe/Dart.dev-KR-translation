@@ -11,6 +11,7 @@ import Header from "../../components/Header";
 import ImportantConcepts from "../../components/ImportantConcepts";
 import Keywords from "../../components/Keywords";
 import LeftSideBar from "../../components/LeftSideBar";
+import LibrariesAndVisibility from "../../components/LibrariesAndVisibility/LibrariesAndVisibility";
 import Operators from "../../components/Operators/Operators";
 import TourRightSideBar from "../../components/RightSideBar/TourRightSideBar";
 import TourOfTheDartLanguage from "../../components/TourOfTheDartLauguage";
@@ -55,6 +56,7 @@ const Tour = () => {
           <Exceptions />
           <Classes />
           <Generics />
+          <LibrariesAndVisibility />
         </div>
       </article>
     </div>

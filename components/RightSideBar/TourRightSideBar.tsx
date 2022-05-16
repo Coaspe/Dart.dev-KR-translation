@@ -284,91 +284,61 @@ const TourRightSideBar = () => {
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#classes">
-            Classes
-          </a>
+          <a href="#classes">Classes</a>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#using-class-members">
-                Using class members
-              </a>
+              <a href="#using-class-members">Using class members</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#using-constructors">
-                Using constructors
-              </a>
+              <a href="#using-constructors">Using constructors</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#getting-an-objects-type">
-                Getting an object’s type
-              </a>
+              <a href="#getting-an-objects-type">Getting an object’s type</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#instance-variables">
-                Instance variables
-              </a>
+              <a href="#instance-variables">Instance variables</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#constructors">
-                Constructors
-              </a>
+              <a href="#constructors">Constructors</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#methods">
-                Methods
-              </a>
+              <a href="#methods">Methods</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#abstract-classes">
-                Abstract classes
-              </a>
+              <a href="#abstract-classes">Abstract classes</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#implicit-interfaces">
-                Implicit interfaces
-              </a>
+              <a href="#implicit-interfaces">Implicit interfaces</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#extending-a-class">
-                Extending a class
-              </a>
+              <a href="#extending-a-class">Extending a class</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#extension-methods">
-                Extension methods
-              </a>
+              <a href="#extension-methods">Extension methods</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#enumerated-types">
-                Enumerated types
-              </a>
+              <a href="#enumerated-types">Enumerated types</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#adding-features-to-a-class-mixins">
+              <a href="#adding-features-to-a-class-mixins">
                 Adding features to a class: mixins
               </a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#class-variables-and-methods">
+              <a href="#class-variables-and-methods">
                 Class variables and methods
               </a>
             </li>
           </ul>
         </li>
         <li className="toc-entry nav-item toc-h2">
-          <a className="nav-link" href="#generics">
-            Generics
-          </a>
+          <a href="#generics">Generics</a>
           <ul className="nav">
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#why-use-generics">
-                Why use generics?
-              </a>
+              <a href="#why-use-generics">Why use generics?</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#using-collection-literals">
-                Using collection literals
-              </a>
+              <a href="#using-collection-literals">Using collection literals</a>
             </li>
             <li className="toc-entry nav-item toc-h3">
               <a
@@ -395,9 +365,18 @@ const TourRightSideBar = () => {
               </a>
             </li>
             <li className="toc-entry nav-item toc-h3">
-              <a className="nav-link" href="#using-generic-methods">
-                Using generic methods
-              </a>
+              <a href="#using-generic-methods">Using generic methods</a>
+            </li>
+          </ul>
+        </li>
+        <li className="toc-entry nav-item toc-h2">
+          <a href="#libraries-and-visibility">Libraries and visibility</a>
+          <ul className="nav">
+            <li className="toc-entry nav-item toc-h3">
+              <a href="#using-libraries">Using libraries</a>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <a href="#implementing-libraries">Implementing libraries</a>
             </li>
           </ul>
         </li>
