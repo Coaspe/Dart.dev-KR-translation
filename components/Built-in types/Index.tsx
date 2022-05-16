@@ -158,12 +158,12 @@ const Index = () => {
             <Ccode text="Object" />
             :
             <Ccode className="ml-1" text="Null" />을 제외한 모든 Dart
-            className=es의 superclassName=
+            className=es의 superclass
           </p>
         </li>
         <li>
           <p style={{ marginBottom: "0" }}>
-            <Ccode text="Enum" />: enums의 superclassName=
+            <Ccode text="Enum" />: enums의 superclass
           </p>
         </li>
         <li>

@@ -210,7 +210,7 @@ const Constructors = () => {
       </h3>
       <p>
         생성자를 선언하지 않았다면, 기본 생성자가 주어집니다. 기본 생성자는
-        인수가 없고, superclassName=의 인수가 없는 생성자를 호출합니다.
+        인수가 없고, superclass의 인수가 없는 생성자를 호출합니다.
       </p>
       <h3
         style={{
@@ -224,8 +224,8 @@ const Constructors = () => {
         생성자는 상속되지 않는다.
       </h3>
       <p>
-        SubclassName=es는 superclassName=로 부터 생성자를 상속받지 않습니다.
-        생성자를 선언하지 않은 subclassName=는 기본 생성자만을 가집니다.
+        SubclassName=es는 superclass로 부터 생성자를 상속받지 않습니다. 생성자를
+        선언하지 않은 subclassName=는 기본 생성자만을 가집니다.
       </p>
       <h3
         style={{
@@ -325,9 +325,9 @@ const Constructors = () => {
         </code>
       </pre>
       <p>
-        SuperclassName=&#39;s의 생성자는 subclassName=로 상속되지 않는 다는 것을
-        꼭 기억하세요. 만약 subclassName=에서 superclassName=와 같은 생성자를
-        사용하고 싶다면, subclassName=에서도 똑같이 구현해야 합니다.
+        superclass&#39;s의 생성자는 subclassName=로 상속되지 않는 다는 것을 꼭
+        기억하세요. 만약 subclassName=에서 superclass와 같은 생성자를 사용하고
+        싶다면, subclassName=에서도 똑같이 구현해야 합니다.
       </p>
       <h3
         style={{
@@ -338,35 +338,35 @@ const Constructors = () => {
         }}
         className="font-noto text-primaryTitleTextColor"
       >
-        SuperclassName=의 Non-default 생성자 호출
+        Superclass의 Non-default 생성자 호출
       </h3>
       <p>
-        디폴트로, sublcass의 생성자는 superclassName=의 이름이 없고(unnamed),
-        인수가 없는(no-argument) 생성자를 호출합니다. SuperclassName=의 생성자는
-        생성자 바디의 처음에 호출됩니다. 만약{" "}
+        디폴트로, sublcass의 생성자는 superclass의 이름이 없고(unnamed), 인수가
+        없는(no-argument) 생성자를 호출합니다. superclass의 생성자는 생성자
+        바디의 처음에 호출됩니다. 만약{" "}
         <CAnchor
           text="initializer list"
           href="https://dart.dev/guides/language/language-tour#initializer-list"
         />
-        가 사용되면, superclassName=가 호출되기 전에 실행됩니다. 요약하자면,
-        실행 순서는 다음과 같습니다.
+        가 사용되면, superclass가 호출되기 전에 실행됩니다. 요약하자면, 실행
+        순서는 다음과 같습니다.
       </p>
       <ol>
         <li>initializer list</li>
-        <li>superclassName=’s no-arg(인수가 없는) constructor</li>
-        <li>main className=’s no-arg constructor</li>
+        <li>superclass’s no-arg(인수가 없는) constructor</li>
+        <li>main class’s no-arg constructor</li>
       </ol>
       <p>
-        만약 superclassName=가 이름이 없고, 인수가 없는 생성자가 없다면, 반드시
-        superclassName=의 생성자 중 하나를 선택해서 호출해야 합니다. 생성자
-        바디에 콜론(
+        만약 superclass가 이름이 없고, 인수가 없는 생성자가 없다면, 반드시
+        superclass의 생성자 중 하나를 선택해서 호출해야 합니다. 생성자 바디에
+        콜론(
         <Ccode text=":" />
-        )를 붙혀서 선택한 superclassName=의 생성자를 명시하세요.
+        )를 붙혀서 선택한 superclass의 생성자를 명시하세요.
       </p>
       {/* 추가 */}
       <p>
-        superclassName=의 생성자로 전해지는 인수가, 생성자가 실행되기 전에
-        평가되기 때문에 인수는 함수 호출에서 처럼 표현식이 될 수 있습니다.
+        superclass의 생성자로 전해지는 인수가, 생성자가 실행되기 전에 평가되기
+        때문에 인수는 함수 호출에서 처럼 표현식이 될 수 있습니다.
       </p>
       <pre className="prettyprint lang-dart prettyprinted">
         <span className="kwd">class</span>
@@ -418,17 +418,17 @@ const Constructors = () => {
               ></path>
             </svg>
           </i>{" "}
-          <strong>Warning:</strong> superclassName=의 생성자로 전달되는 인수는
+          <strong>Warning:</strong> superclass의 생성자로 전달되는 인수는
           <code className="language-plaintext highlighter-rouge"> this</code>에
           접근 할 수 없습니다. 예를 들면, 인수는 정적 메서드를 호출 할 수
           있지만, 인스턴스 메서드는 호출 할 수 없습니다.
         </p>
       </aside>
       <p>
-        수동으로 superclassName=의 생성자 매개변수를 넘겨주는 것을 피하기
-        위해서, super-initializer 매개변수를 superclassName=의 생성자로 넘겨주면
-        됩니다. 이 피쳐를 리다이랙팅 생성자와 사용하는 것은 불가능합니다.
-        Super-initializer 매개변수는{" "}
+        수동으로 superclass의 생성자 매개변수를 넘겨주는 것을 피하기 위해서,
+        super-initializer 매개변수를 superclass의 생성자로 넘겨주면 됩니다. 이
+        피쳐를 리다이랙팅 생성자와 사용하는 것은 불가능합니다. Super-initializer
+        매개변수는{" "}
         <CAnchor
           text="initializing formal 매개변수"
           href="https://dart.dev/guides/language/language-tour#initializing-formal-parameters"
@@ -666,7 +666,7 @@ const Constructors = () => {
         Initializer list
       </h3>
       <p>
-        SuperclassName= 생성자를 호출할 뿐만 아니라 생성자 바디가 실행되기 전에
+        superclass 생성자를 호출할 뿐만 아니라 생성자 바디가 실행되기 전에
         인스턴스 변수를 초기화할 수도 있습니다. 이니셜라이저는 쉼표로
         구분합니다.
       </p>
