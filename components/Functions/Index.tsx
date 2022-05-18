@@ -27,8 +27,8 @@ const Index = () => {
         것을 의미합니다. Dart 클래스의 인스턴스를 함수처럼 호출하는 것 또한
         가능합니다. 더 자세한 정보를 원한다면,{" "}
         <CAnchor
-          text="Callable className=es"
-          href="https://dart.dev/guides/language/language-tour#callable-className=es"
+          text="Callable class"
+          href="https://dart.dev/guides/language/language-tour#callable-class"
         />
         를 참고하세요.
       </p>

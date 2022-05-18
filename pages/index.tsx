@@ -1,8 +1,3 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import BasicDartProgram from "../components/BasicDartProgram";
@@ -22,18 +17,31 @@ import Exceptions from "../components/Exceptions/Exceptions";
 import Classes from "../components/Classes/Classes";
 import Generics from "../components/Generics/Generics";
 import LibrariesAndVisibility from "../components/LibrariesAndVisibility/LibrariesAndVisibility";
+import AsynchronySupport from "../components/Asynchrony support/AsynchronySupport";
 
 const Home = () => {
   const Router = useRouter();
   useEffect(() => {
-    const element = document.getElementById(Router.asPath.split("#")[1]);
-    if (element) {
+    const handler = (url: string) => {
+      console.log(url);
+      const element = document.getElementById(url.split("#")[1]);
+      console.log(url.split("#")[1]);
       console.log(element);
-      element.scrollIntoView({
-        behavior: "smooth",
-      });
-    }
-  }, [Router.asPath]);
+
+      if (element) {
+        console.log(element.getBoundingClientRect().top);
+        console.log(element.offsetTop);
+
+        const tt = element.offsetTop - 50;
+        window.scrollTo({ top: tt, behavior: "smooth" });
+      }
+    };
+    Router.events.on("hashChangeComplete", handler);
+    return () => {
+      Router.events.off("hashChangeComplete", handler);
+    };
+  }, []);
+
   return (
     <div>
       <Header />
@@ -64,6 +72,7 @@ const Home = () => {
           <Classes />
           <Generics />
           <LibrariesAndVisibility />
+          <AsynchronySupport />
         </div>
       </article>
     </div>

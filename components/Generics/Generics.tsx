@@ -3,6 +3,7 @@ import Index from "./Index";
 import RPT from "./RPT";
 import UGM from "./UGM";
 import UPTWC from "./UPTWC";
+import UsingCollectionLiterals from "./UsingCollectionLiterals";
 import WhyUseGenerics from "./WhyUseGenerics";
 
 const Generics = () => {
@@ -10,6 +11,7 @@ const Generics = () => {
     <>
       <Index />
       <WhyUseGenerics />
+      <UsingCollectionLiterals />
       <UPTWC />
       <GCATTC />
       <RPT />

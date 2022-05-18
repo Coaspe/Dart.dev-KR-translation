@@ -157,8 +157,8 @@ const Index = () => {
           <p style={{ marginBottom: "0" }}>
             <Ccode text="Object" />
             :
-            <Ccode className="ml-1" text="Null" />을 제외한 모든 Dart
-            className=es의 superclass
+            <Ccode className="ml-1" text="Null" />을 제외한 모든 Dart class의
+            superclass
           </p>
         </li>
         <li>

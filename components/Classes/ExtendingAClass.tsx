@@ -11,7 +11,7 @@ const ExtendingAClass = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="constructors"
+        id="extending-a-class"
         className="font-noto text-primaryTitleTextColor"
       >
         클래스 확장(Extending a class)

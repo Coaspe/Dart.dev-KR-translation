@@ -10,7 +10,7 @@ const UsingClassMember = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="using-className=-members"
+        id="using-class-members"
         className="font-noto text-primaryTitleTextColor"
       >
         클래스 멤버 사용하기

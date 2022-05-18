@@ -10,7 +10,7 @@ const LexicalClosures = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="functions-as-first-className=-objects"
+        id="lexical-closures"
         className="font-noto text-primaryTitleTextColor"
       >
         렉시컬 클로져(Lexical closures)

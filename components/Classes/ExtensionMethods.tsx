@@ -11,7 +11,7 @@ const ExtensionMethods = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="constructors"
+        id="extension-methods"
         className="font-noto text-primaryTitleTextColor"
       >
         확장 메서드(Extension methods)

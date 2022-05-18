@@ -11,10 +11,10 @@ const Index = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="className=es"
+        id="classes"
         className="font-noto text-primaryTitleTextColor"
       >
-        className=es
+        클래스
       </h2>
       <p>
         Dart는 mixin 기반 상속을 지원하는 객체지향언어 입니다. 모든 객체는

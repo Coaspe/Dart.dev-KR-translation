@@ -10,7 +10,7 @@ const ImplicitInterfaces = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="constructors"
+        id="implicit-interfaces"
         className="font-noto text-primaryTitleTextColor"
       >
         암묵적 인터페이스(Implicit interfaces)

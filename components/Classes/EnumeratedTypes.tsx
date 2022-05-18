@@ -11,7 +11,7 @@ const EnumeratedTypes = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="constructors"
+        id="enumerated-types"
         className="font-noto text-primaryTitleTextColor"
       >
         열거 타입(Enumerated types)

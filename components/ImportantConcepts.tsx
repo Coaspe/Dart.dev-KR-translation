@@ -34,9 +34,9 @@ const ImportantConcepts = () => {
         <li>
           <p>
             변수로 할당 할 수 있는 모든 것은 object(객체)이고 모든 object는
-            className=의 instance 입니다. numbers, functions 그리고 null까지
-            모두 objects 입니다. null을 제외하고(만약 sound null safety가
-            가능하다면) 모든 objects들은 Object className=를 상속받습니다.
+            class의 instance 입니다. numbers, functions 그리고 null까지 모두
+            objects 입니다. null을 제외하고(만약 sound null safety가 가능하다면)
+            모든 objects들은 Object class를 상속받습니다.
           </p>
           <aside className="font-noto font-bold">
             <i className="inline-block">

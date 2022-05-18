@@ -7,7 +7,7 @@ const KeywordsTable = () => {
         <tbody className="table-body">
           <tr>
             <td>
-              <Link href="#abstract-className=es">abstract</Link>&nbsp;
+              <Link href="#abstract-class">abstract</Link>&nbsp;
               <sup title="built-in-identifier">2</sup>
             </td>
             <td>

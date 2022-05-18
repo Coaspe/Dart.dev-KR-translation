@@ -10,7 +10,7 @@ const Mixins = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="constructors"
+        id="adding-features-to-a-class-mixins"
         className="font-noto text-primaryTitleTextColor"
       >
         클래스에 피쳐(features) 추가하기:Mixins

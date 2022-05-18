@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import AsynchronySupport from "../../components/Asynchrony support/AsynchronySupport";
 import BasicDartProgram from "../../components/BasicDartProgram";
 import BuiltInTypes from "../../components/Built-in types/BuiltInTypes";
 import Classes from "../../components/Classes/Classes";
@@ -57,6 +58,7 @@ const Tour = () => {
           <Classes />
           <Generics />
           <LibrariesAndVisibility />
+          <AsynchronySupport />
         </div>
       </article>
     </div>

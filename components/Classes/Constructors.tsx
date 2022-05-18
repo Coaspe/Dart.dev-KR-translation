@@ -224,7 +224,7 @@ const Constructors = () => {
         생성자는 상속되지 않는다.
       </h3>
       <p>
-        SubclassName=es는 superclass로 부터 생성자를 상속받지 않습니다. 생성자를
+        Subclass는 superclass로 부터 생성자를 상속받지 않습니다. 생성자를
         선언하지 않은 subclassName=는 기본 생성자만을 가집니다.
       </p>
       <h3

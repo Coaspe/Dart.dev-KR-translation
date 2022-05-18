@@ -10,7 +10,7 @@ const LexicalScope = () => {
           marginBottom: "0.5rem",
           fontWeight: 600,
         }}
-        id="functions-as-first-className=-objects"
+        id="lexical-scope"
         className="font-noto text-primaryTitleTextColor"
       >
         렉시컬 스코프(Lexical scope)
