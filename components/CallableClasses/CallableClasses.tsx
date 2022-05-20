@@ -26,7 +26,7 @@ const CallableClasses = () => {
       </p>
       <div>
         <iframe
-          src="https://dartpad.dev/embed-dart.html?theme=light&amp;run=dartpad&amp;split=false&amp;ga_id=f219f5c3db26ff4f6024257869ece720&amp;null_safety=false"
+          src="https://dartpad.dev/embed-dart.html?theme=light&amp;run=dartpad&amp;split=false&amp;id=f219f5c3db26ff4f6024257869ece720&amp;null_safety=false"
           style={{ height: "350px" }}
         ></iframe>
       </div>
