@@ -392,6 +392,21 @@ const TourRightSideBar = () => {
             </li>
           </ul>
         </li>
+        <li className="toc-entry nav-item toc-h2">
+          <Link href="#generators">제네레이터</Link>
+        </li>
+        <li className="toc-entry nav-item toc-h2">
+          <Link href="#callable-classes">호출 가능한 클래스</Link>
+        </li>
+        <li className="toc-entry nav-item toc-h2">
+          <Link href="#isolates">Isolates</Link>
+        </li>
+        <li className="toc-entry nav-item toc-h2">
+          <Link href="#typedefs">Typedefs</Link>
+        </li>
+        <li className="toc-entry nav-item toc-h2">
+          <Link href="#metadata">메타데이터</Link>
+        </li>
       </ul>
     </div>
   );

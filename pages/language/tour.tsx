@@ -3,19 +3,24 @@ import { useEffect } from "react";
 import AsynchronySupport from "../../components/Asynchrony support/AsynchronySupport";
 import BasicDartProgram from "../../components/BasicDartProgram";
 import BuiltInTypes from "../../components/Built-in types/BuiltInTypes";
+import CallableClasses from "../../components/CallableClasses/CallableClasses";
 import Classes from "../../components/Classes/Classes";
 import ControlFlowStatements from "../../components/Control flow statements/ControlFlowStatements";
 import Exceptions from "../../components/Exceptions/Exceptions";
 import Functions from "../../components/Functions/Functions";
+import Generators from "../../components/Generators/Generators";
 import Generics from "../../components/Generics/Generics";
 import Header from "../../components/Header";
 import ImportantConcepts from "../../components/ImportantConcepts";
+import Isolates from "../../components/Isolates/Isolates";
 import Keywords from "../../components/Keywords";
 import LeftSideBar from "../../components/LeftSideBar";
 import LibrariesAndVisibility from "../../components/LibrariesAndVisibility/LibrariesAndVisibility";
+import Metadata from "../../components/Metadata/Metadata";
 import Operators from "../../components/Operators/Operators";
 import TourRightSideBar from "../../components/RightSideBar/TourRightSideBar";
 import TourOfTheDartLanguage from "../../components/TourOfTheDartLauguage";
+import Typedefs from "../../components/Typedefs/Typedefs";
 import Variables from "../../components/Variables/Variables";
 
 const Tour = () => {
@@ -59,6 +64,11 @@ const Tour = () => {
           <Generics />
           <LibrariesAndVisibility />
           <AsynchronySupport />
+          <Generators />
+          <CallableClasses />
+          <Isolates />
+          <Typedefs />
+          <Metadata />
         </div>
       </article>
     </div>

@@ -18,6 +18,9 @@ import Classes from "../components/Classes/Classes";
 import Generics from "../components/Generics/Generics";
 import LibrariesAndVisibility from "../components/LibrariesAndVisibility/LibrariesAndVisibility";
 import AsynchronySupport from "../components/Asynchrony support/AsynchronySupport";
+import Generators from "../components/Generators/Generators";
+import CallableClasses from "../components/CallableClasses/CallableClasses";
+import Tour from "./language/tour";
 
 const Home = () => {
   const Router = useRouter();
@@ -43,39 +46,9 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <Header />
-      <LeftSideBar selected="Tour" />
-      <article>
-        <TourRightSideBar />
-        <div
-          style={{
-            maxWidth: "960px",
-            marginLeft: "auto",
-            marginRight: "auto",
-            paddingTop: "55px",
-            padding: "20px",
-          }}
-          className="font-noto relative"
-        >
-          <Opening />
-          <TourOfTheDartLanguage />
-          <BasicDartProgram />
-          <ImportantConcepts />
-          <Keywords />
-          <Variables />
-          <BuiltInTypes />
-          <Functions />
-          <Operators />
-          <ControlFlowStatements />
-          <Exceptions />
-          <Classes />
-          <Generics />
-          <LibrariesAndVisibility />
-          <AsynchronySupport />
-        </div>
-      </article>
-    </div>
+    <>
+      <Tour />
+    </>
   );
 };
 
