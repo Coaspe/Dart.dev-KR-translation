@@ -407,6 +407,23 @@ const TourRightSideBar = () => {
         <li className="toc-entry nav-item toc-h2">
           <Link href="#metadata">메타데이터</Link>
         </li>
+        <li className="toc-entry nav-item toc-h2">
+          <Link href="#comments">주석</Link>
+          <ul className="nav">
+            <li className="toc-entry nav-item toc-h3">
+              <Link href="#single-line-comments">싱글 라인 주석</Link>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <Link href="#multi-line-comments">멀티 라인 주석</Link>
+            </li>
+            <li className="toc-entry nav-item toc-h3">
+              <Link href="#documentation-comments">문서 주석</Link>
+            </li>
+          </ul>
+        </li>
+        <li className="toc-entry nav-item toc-h2">
+          <Link href="#summary">요약</Link>
+        </li>
       </ul>
     </div>
   );

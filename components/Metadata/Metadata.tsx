@@ -155,8 +155,8 @@ const Metadata = () => {
             <span className="pun">,</span>
             <span className="pln"> </span>
             <span className="str">&#39;make this do something&#39;</span>
-            <div />
             <span className="pun">)</span>
+            <div />
             <span className="pln"></span>
             <span className="typ">void</span>
             <span className="pln"> doSomething</span>
