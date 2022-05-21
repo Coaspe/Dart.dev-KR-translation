@@ -225,7 +225,7 @@ const Constructors = () => {
       </h3>
       <p>
         Subclass는 superclass로 부터 생성자를 상속받지 않습니다. 생성자를
-        선언하지 않은 subclassName=는 기본 생성자만을 가집니다.
+        선언하지 않은 subclass는 기본 생성자만을 가집니다.
       </p>
       <h3
         style={{
@@ -325,9 +325,9 @@ const Constructors = () => {
         </code>
       </pre>
       <p>
-        superclass&#39;s의 생성자는 subclassName=로 상속되지 않는 다는 것을 꼭
-        기억하세요. 만약 subclassName=에서 superclass와 같은 생성자를 사용하고
-        싶다면, subclassName=에서도 똑같이 구현해야 합니다.
+        superclass&#39;s의 생성자는 subclass로 상속되지 않는 다는 것을 꼭
+        기억하세요. 만약 subclass에서 superclass와 같은 생성자를 사용하고
+        싶다면, subclass에서도 똑같이 구현해야 합니다.
       </p>
       <h3
         style={{
