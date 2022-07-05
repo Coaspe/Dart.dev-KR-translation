@@ -26,15 +26,9 @@ const Home = () => {
   const Router = useRouter();
   useEffect(() => {
     const handler = (url: string) => {
-      console.log(url);
       const element = document.getElementById(url.split("#")[1]);
-      console.log(url.split("#")[1]);
-      console.log(element);
 
       if (element) {
-        console.log(element.getBoundingClientRect().top);
-        console.log(element.offsetTop);
-
         const tt = element.offsetTop - 50;
         window.scrollTo({ top: tt, behavior: "smooth" });
       }

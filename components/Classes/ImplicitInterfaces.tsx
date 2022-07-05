@@ -107,7 +107,7 @@ const ImplicitInterfaces = () => {
             <span className="pln"> _name </span>
             <span className="pun">=&gt;</span>
             <span className="pln"> </span>
-            <span className="str">&#39;</span>
+            <span className="str">&#39;&#39;</span>
             <span className="pun">;</span>
             <div> </div>
             <span className="pln"></span>

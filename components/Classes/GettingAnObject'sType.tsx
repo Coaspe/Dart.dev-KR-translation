@@ -52,26 +52,25 @@ const GettingAnObjectsType = () => {
             ></path>
           </svg>
         </i>
-        객체의 타입을 테스트하려면,
+        객체의 타입을 테스트하려면,{" "}
         <code className="language-plaintext highlighter-rouge">
           runtimeType
         </code>{" "}
-        대신
-        <a href="#type-test-operators">타입 테스트 연산자</a>를 사용하세요.
+        대신 <a href="#type-test-operators">타입 테스트 연산자</a>를 사용하세요.
         프로덕션 환경에서,{" "}
         <code className="language-plaintext highlighter-rouge">
           object is Type
         </code>{" "}
-        테스트가
+        테스트가{" "}
         <code className="language-plaintext highlighter-rouge">
           object.runtimeType == Type
         </code>
         테스트 보다 더 안전합니다.
       </p>
       <p>
-        여기까지 클래스를 어떻게 <span className="italic">사용</span>하는지에
+        여기까지 클래스를 어떻게 <span className="italic">사용 </span>하는지에
         대해 알아보았습니다. 나머지 섹션에서는 어떻게{" "}
-        <span className="italic">구현</span>하는지에 대해 알아보겠습니다.
+        <span className="italic">구현 </span>하는지에 대해 알아보겠습니다.
       </p>
     </>
   );

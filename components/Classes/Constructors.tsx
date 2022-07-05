@@ -442,6 +442,7 @@ const Constructors = () => {
         <span className="pln"> </span>
         <span className="pun">&#123;</span>
         <span className="pln"></span>
+        <div />
         <span className="kwd">{"  "}final</span>
         <span className="pln"> </span>
         <span className="typ">double</span>
@@ -645,7 +646,7 @@ const Constructors = () => {
             </svg>
           </i>{" "}
           <strong>Version note:</strong>
-          Super-initializer 매개변수를 사용하는 것은 최소 2.17
+          Super-initializer 매개변수를 사용하는 것은 최소 2.17{" "}
           <a href="/guides/language/evolution#language-versioning">
             language version
           </a>{" "}
@@ -821,8 +822,9 @@ const Constructors = () => {
         <div> </div>
         <span className="pln"></span>
         <span className="com">
-          {"  "}&#47;&#47; The main constructor for this className=.
+          {"  "}&#47;&#47; The main constructor for this class.
         </span>
+        <div />
         <span className="pln"></span>
         <span className="typ">{"  "}Point</span>
         <span className="pun">(</span>
@@ -840,6 +842,7 @@ const Constructors = () => {
         <span className="com">
           {"  "}&#47;&#47; Delegates to the main constructor.
         </span>
+        <div />
         <span className="pln"></span>
         <span className="typ">{"  "}Point</span>
         <span className="pun">.</span>
@@ -976,7 +979,7 @@ const Constructors = () => {
           <strong>Tip:</strong>
           final 변수의 늦은(late) 초기화를 하기 위한 또 다른 방법으로는,
           <a href="/guides/language/effective-dart/design#avoid-public-late-final-fields-without-initializers">
-            use{" "}
+            {" "}
             <code className="language-plaintext highlighter-rouge">
               late final
             </code>{" "}

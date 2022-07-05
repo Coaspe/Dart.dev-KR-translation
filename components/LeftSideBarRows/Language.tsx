@@ -34,12 +34,22 @@ const Language: React.FC<props> = ({ selected }) => {
           !open ? "max-h-0 opacity-0" : "max-h-72 opacity-100"
         }`}
       >
-        <li style={{ paddingTop: "0rem", paddingBottom: "0.25rem" }}>
+        <li style={{ paddingTop: "0.25rem", paddingBottom: "0.25rem" }}>
           <Link
             href="/language/tour"
             className={`${selected === "Tour" && "text-selectedText"}`}
           >
             Tour
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={`${
+              selected === "ExtentionMethods" && "text-selectedText"
+            }`}
+            href="/language/ExtentionMethods"
+          >
+            Extenstion Methods
           </Link>
         </li>
         {/* <li style={{ padding: "0.25rem 0" }}>

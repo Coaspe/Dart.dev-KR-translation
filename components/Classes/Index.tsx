@@ -26,7 +26,7 @@ const Index = () => {
         에서 비롯합니다. <span className="italic">Mixin 기반 상속</span>이란
         말은, 모든 클래스가 하나의 superclass를 갖고 있지만(
         <CAnchor
-          text="top className="
+          text="top class"
           href="https://dart.dev/null-safety/understanding-null-safety#top-and-bottom"
         />
         인 <Ccode text="Object?" />를 제외한) 클래스의 바디는 다양한 클래스

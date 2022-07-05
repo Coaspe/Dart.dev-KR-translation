@@ -35,6 +35,7 @@ const ExtendingAClass = () => {
           <span className="pun">()</span>
           <span className="pln"> </span>
           <span className="pun">&#123;</span>
+          <div />
           <span className="pln">{"    "}_illuminateDisplay</span>
           <span className="pun">();</span>
           <div />
@@ -99,10 +100,9 @@ const ExtendingAClass = () => {
       </pre>
       <p>
         <code className="language-plaintext highlighter-rouge">extends</code>,
-        의 다른 사용법을 알고 싶다면,
-        <a href="#restricting-the-parameterized-type">
-          parameterized types
-        </a>의 <a href="#generics">generics</a>를 참고하세요.
+        의 다른 사용법을 알고 싶다면,{" "}
+        <a href="#restricting-the-parameterized-type">parameterized types</a>의{" "}
+        <a href="#generics">generics</a>를 참고하세요.
       </p>
       <h3
         style={{

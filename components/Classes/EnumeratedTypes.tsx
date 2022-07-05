@@ -154,7 +154,7 @@ const EnumeratedTypes = () => {
           인스턴스 중 하나를 반환 할 수 있습니다.
         </li>
         <li>
-          다른 클래스들은
+          다른 클래스들은{" "}
           <a
             href="https://api.dart.dev/stable/dart-core/Enum-class.html"
             className="external"
@@ -173,10 +173,8 @@ const EnumeratedTypes = () => {
         <li>
           <code className="language-plaintext highlighter-rouge">values</code>로
           named된 멤버는 enum에 선언 될 수 없습니다. 만약 enum에 선언한다면,
-          자동으로 생성된 정적
-          <code className="language-plaintext highlighter-rouge">
-            values
-          </code>{" "}
+          자동으로 생성된 정적{" "}
+          <code className="language-plaintext highlighter-rouge">values</code>{" "}
           getter와 충돌합니다.
         </li>
         <li>
